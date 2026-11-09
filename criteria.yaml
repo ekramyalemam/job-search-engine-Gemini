@@ -1,25 +1,38 @@
-# Locations to search
-locations:
-  - name: "Toronto, ON, Canada"
-    country: "Canada"
-  - name: "Vaughan, ON, Canada"
-    country: "Canada"
+# JOB SEARCH SETTINGS
 
-# Job boards to scrape
 sites:
   - linkedin
   - indeed
+
+optional_sites:
+  - bayt
+  - google
+  - glassdoor
   - zip_recruiter
 
-# Search terms to query
+locations:
+  - name: "Dubai, UAE"
+    country: "United Arab Emirates"
+  - name: "Doha, Qatar"
+    country: "Qatar"
+  - name: "Riyadh, Saudi Arabia"
+    country: "Saudi Arabia"
+  - name: "Toronto, Canada"
+    country: "Canada"
+
 search_terms:
   - "network operations manager"
-  - "NOC manager telecom"
+  - "NOC manager"
   - "service delivery manager telecom"
-  - "major incident manager IT"
-  - "customer operations manager"
+  - "major incident manager"
+  - "cloud operations manager"
+  - "IT infrastructure manager"
+  - "telecom project manager"
 
-# Title MUST contain at least one of these role keywords
+employment_types:
+  - fulltime
+
+# 1. HARD GATE: Title MUST contain one of these (stops random roles)
 role_keywords:
   - network
   - noc
@@ -29,46 +42,94 @@ role_keywords:
   - cloud
   - manager
   - director
+  - project
+  - program
 
-# Title MUST NOT contain any of these exclude keywords
-exclude_keywords:
+# 2. HARD GATE: Title MUST contain a seniority word
+seniority_keywords:
+  - senior
+  - manager
+  - head
+  - lead
+  - director
+
+# 3. EXCLUDE: Job is dropped if title contains any of these
+exclude_title_words:
   - store
   - retail
   - sales
   - marketing
-  - customer success
+  - recruiter
   - hr
   - human resources
-  - escalation
+  - customer success
+  - finance
+  - accounting
+  - legal
+  - warehouse
+  - hospitality
+  - construction
+  - highways
+  - clinical
+  - driver
+  - logistics
+  - real estate
 
-# Seniority levels allowed in titles
-seniority_keywords:
-  - senior
-  - lead
-  - manager
-  - head
-  - director
+# INDUSTRY MATCHING
+industries:
+  - telecom
+  - telecommunications
+  - networking
+  - network operations
+  - cloud
+  - data center
+  - wireless
+  - 5G
+  - fiber
+  - managed services
 
-# Priority companies (receives +3 Fit Score boost)
+# JOB FUNCTION MATCHING
+job_functions:
+  - operations
+  - delivery
+  - incident
+  - project
+  - program
+
+# SCORING SYSTEM
+# Job needs at least a 3 to survive.
+min_relevance_score: 3
+
+# High-value title words (+3 points). *Removed generic words like IT, technology, systems*
+title_keywords:
+  - network
+  - NOC
+  - telecom
+  - telecommunications
+  - cloud
+  - infrastructure
+  - incident
+  - wireless
+  - fiber
+  - 5G
+  - data center
+  - service delivery
+  - managed services
+
+# PRIORITY BONUS (+3 points added to Final Rank Score)
 priority_companies:
-  - Nokia
-  - Ericsson
+  - Verizon
+  - AT&T
   - Cisco
+  - HPE
   - Bell
   - Rogers
-  - Telus
+  - TELUS
   - Motorola Solutions
+  - Nokia
+  - Ericsson
 
-# Industry keywords for verification
-industries:
-  - telecommunications
-  - telecom
-  - information technology
-  - networking
-  - cloud
-
-# Scraper performance settings
-results_per_search: 20
 days_back: 7
+results_per_search: 20
 linkedin_fetch_description: true
 skip_site_after_failures: 4
