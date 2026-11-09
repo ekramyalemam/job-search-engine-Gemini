@@ -39,6 +39,8 @@ role_keywords:
   - operations
   - delivery
   - incident
+  - escalation
+  - reliability
   - cloud
   - manager
   - director
@@ -97,10 +99,9 @@ job_functions:
   - program
 
 # SCORING SYSTEM
-# Job needs at least a 3 to survive.
 min_relevance_score: 3
 
-# High-value title words (+3 points). *Removed generic words like IT, technology, systems*
+# High-value title words (+3 points)
 title_keywords:
   - network
   - NOC
@@ -109,6 +110,8 @@ title_keywords:
   - cloud
   - infrastructure
   - incident
+  - escalation
+  - reliability
   - wireless
   - fiber
   - 5G
@@ -128,6 +131,14 @@ priority_companies:
   - Motorola Solutions
   - Nokia
   - Ericsson
+
+# False-positive companies (never marked as priority)
+not_priority_companies:
+  - Bell Techlogix
+  - Bell Textron
+  - Bell Flight
+  - Bell Bank
+  - Bell Helicopter
 
 days_back: 7
 results_per_search: 20
