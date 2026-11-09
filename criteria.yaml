@@ -1,0 +1,74 @@
+# Locations to search
+locations:
+  - name: "Toronto, ON, Canada"
+    country: "Canada"
+  - name: "Vaughan, ON, Canada"
+    country: "Canada"
+
+# Job boards to scrape
+sites:
+  - linkedin
+  - indeed
+  - zip_recruiter
+
+# Search terms to query
+search_terms:
+  - "network operations manager"
+  - "NOC manager telecom"
+  - "service delivery manager telecom"
+  - "major incident manager IT"
+  - "customer operations manager"
+
+# Title MUST contain at least one of these role keywords
+role_keywords:
+  - network
+  - noc
+  - operations
+  - delivery
+  - incident
+  - cloud
+  - manager
+  - director
+
+# Title MUST NOT contain any of these exclude keywords
+exclude_keywords:
+  - store
+  - retail
+  - sales
+  - marketing
+  - customer success
+  - hr
+  - human resources
+  - escalation
+
+# Seniority levels allowed in titles
+seniority_keywords:
+  - senior
+  - lead
+  - manager
+  - head
+  - director
+
+# Priority companies (receives +3 Fit Score boost)
+priority_companies:
+  - Nokia
+  - Ericsson
+  - Cisco
+  - Bell
+  - Rogers
+  - Telus
+  - Motorola Solutions
+
+# Industry keywords for verification
+industries:
+  - telecommunications
+  - telecom
+  - information technology
+  - networking
+  - cloud
+
+# Scraper performance settings
+results_per_search: 20
+days_back: 7
+linkedin_fetch_description: true
+skip_site_after_failures: 4
