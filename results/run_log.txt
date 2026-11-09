@@ -1,0 +1,38 @@
+OK     linkedin | network operations manager | Toronto, ON, Canada -> 20 jobs
+OK     indeed | network operations manager | Toronto, ON, Canada -> 20 jobs
+EMPTY  zip_recruiter | network operations manager | Toronto, ON, Canada
+OK     linkedin | NOC manager telecom | Toronto, ON, Canada -> 20 jobs
+EMPTY  indeed | NOC manager telecom | Toronto, ON, Canada
+EMPTY  zip_recruiter | NOC manager telecom | Toronto, ON, Canada
+OK     linkedin | service delivery manager telecom | Toronto, ON, Canada -> 20 jobs
+OK     indeed | service delivery manager telecom | Toronto, ON, Canada -> 6 jobs
+EMPTY  zip_recruiter | service delivery manager telecom | Toronto, ON, Canada
+OK     linkedin | major incident manager IT | Toronto, ON, Canada -> 20 jobs
+OK     indeed | major incident manager IT | Toronto, ON, Canada -> 19 jobs
+EMPTY  zip_recruiter | major incident manager IT | Toronto, ON, Canada
+SKIPPED zip_recruiter: no jobs after 4 tries
+OK     linkedin | customer operations manager | Toronto, ON, Canada -> 20 jobs
+OK     indeed | customer operations manager | Toronto, ON, Canada -> 20 jobs
+OK     linkedin | network operations manager | Vaughan, ON, Canada -> 20 jobs
+OK     indeed | network operations manager | Vaughan, ON, Canada -> 20 jobs
+OK     linkedin | NOC manager telecom | Vaughan, ON, Canada -> 20 jobs
+EMPTY  indeed | NOC manager telecom | Vaughan, ON, Canada
+OK     linkedin | service delivery manager telecom | Vaughan, ON, Canada -> 20 jobs
+OK     indeed | service delivery manager telecom | Vaughan, ON, Canada -> 6 jobs
+OK     linkedin | major incident manager IT | Vaughan, ON, Canada -> 20 jobs
+OK     indeed | major incident manager IT | Vaughan, ON, Canada -> 20 jobs
+OK     linkedin | customer operations manager | Vaughan, ON, Canada -> 20 jobs
+OK     indeed | customer operations manager | Vaughan, ON, Canada -> 20 jobs
+
+=== SITE SUMMARY ===
+linkedin: 200 jobs from 10/10 searches (used)
+indeed: 131 jobs from 8/10 searches (used)
+zip_recruiter: 0 jobs from 0/4 searches (skipped)
+
+=== FILTERS ===
+Total after merging duplicates: 132
+Dropped for excluded title keywords (e.g. retail): 5
+Dropped for missing role keyword in title: 48
+Dropped for seniority: 7
+Dropped for industry: 32
+Final jobs kept: 40
