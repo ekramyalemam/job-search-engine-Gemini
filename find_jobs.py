@@ -1,4 +1,4 @@
-"""Gemini Hybrid (v4): Audit lists, share_me.txt, strict role gates, +3 Priority boost."""
+"""Gemini Hybrid (v5): Multilingual support, rescue logic, strict role gates, +3 Priority boost."""
 import os
 import random
 import re
@@ -180,7 +180,7 @@ def main():
     type_col = col(jobs, "job_type")
     idx = jobs.index
 
-    # --- Hard rules: role gate, seniority, employment type, exclude words ---
+    # --- Hard rules: Role Gate, Seniority, Employment Type, Exclude Words ---
     role_found = title.apply(lambda t: word_start(t, c.get("role_keywords", [])))
     sen_found = title.apply(lambda t: whole_word(t, c.get("seniority_keywords", [])))
     seniority = sen_found.where(level_col == "", level_col)
@@ -192,6 +192,7 @@ def main():
         type_keep = pd.Series(True, index=idx)
 
     ex_hit = title.apply(lambda t: whole_word(t, c.get("exclude_title_words", [])))
+    title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
 
     # --- Relevance score ---
     pri_names = c.get("priority_companies", [])
@@ -203,13 +204,16 @@ def main():
     ind_ok = (ind_found != "") | is_pri
     has_info = (desc != "") | (industry_col != "")
 
-    title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
     func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
+
+    adj_words = c.get("adjacent_title_keywords", []) or []
+    adj_hit = title.apply(lambda t: whole_word(t, adj_words) != "") & ~title_hit
 
     score = (
         title_hit.astype(int) * 3
         + ind_ok.astype(int) * 2
         + (func_title != "").astype(int)
+        + adj_hit.astype(int)
     )
     min_score = c.get("min_relevance_score", 3)
 
@@ -218,13 +222,19 @@ def main():
     reason = reason.mask((reason == "") & (role_found == ""), "missing role keyword")
     reason = reason.mask((reason == "") & (sen_found == ""), "no seniority word in title")
     reason = reason.mask((reason == "") & ~type_keep, "employment type: " + type_col)
-    reason = reason.mask((reason == "") & (ex_hit != ""), "exclude word: " + ex_hit)
+    
+    # An exclude word blocks a job, unless the title also has a tech word (Rescued to MAYBE)
+    reason = reason.mask((reason == "") & (ex_hit != "") & ~title_hit, "exclude word: " + ex_hit)
+    
     passed = reason == ""
+    rescued = passed & (ex_hit != "")
     
     tier = pd.Series("rejected", index=idx)
     tier[passed & (score >= min_score)] = "main"
     tier[passed & (score < min_score) & (score >= 1)] = "maybe"
+    tier[rescued] = "maybe"
     reason[tier == "maybe"] = "score " + score.astype(str) + " below " + str(min_score)
+    reason[rescued] = "exclude word '" + ex_hit + "' but title has a tech word"
     reason[tier == "main"] = ""
     reason[passed & (tier == "rejected")] = "score 0: no role or industry evidence"
 
@@ -240,8 +250,12 @@ def main():
     )
     func = func.where(func != "", "Other")
 
+    pref = c.get("preferred_locations", []) or []
+    loc_bonus = col(jobs, "location").apply(lambda v: 1 if word_start(v, pref) != "" else 0)
+
+    # Gemini Strict +3 Priority Boost applied alongside Claude's Location Bonus
     full = pd.DataFrame({
-        "Score": score + (is_pri.astype(int) * 3), # Gemini Strict +3 Priority Boost applied here
+        "Score": score + (is_pri.astype(int) * 3) + loc_bonus,
         "Priority": is_pri.map({True: "Yes", False: ""}),
         "Title": title,
         "Company": company,
@@ -276,14 +290,16 @@ def main():
     n_role = int(r.str.startswith("missing role keyword").sum())
     n_sen = int(r.str.startswith("no seniority").sum())
     n_emp = int(r.str.startswith("employment").sum())
-    n_exc = int(r.str.startswith("exclude").sum())
+    n_exc = int(r.str.startswith("exclude word:").sum())
+    n_resc = int(rescued.sum())
     n_zero = int(r.str.startswith("score 0").sum())
     filt = [
-        f"Total after removing URL duplicates: {total}",
-        f"Dropped for missing role: {n_role}",
+        f"Total after removing duplicates: {total}",
+        f"Dropped for missing role keyword: {n_role}",
         f"Dropped for seniority: {n_sen}",
         f"Dropped for employment type: {n_emp}",
         f"Dropped for exclude words: {n_exc}",
+        f"Rescued to MAYBE (exclude word but tech title): {n_resc}",
         f"Dropped, score 0 (no evidence): {n_zero}",
         f"Moved to MAYBE list (score 1-{min_score - 1}): {int((tier == 'maybe').sum())}",
         f"Strong matches before merging repeats: {int((tier == 'main').sum())}",
@@ -327,7 +343,7 @@ def main():
     for label, key in [
         ("missing role", "missing role keyword"),
         ("seniority", "no seniority"),
-        ("exclude word", "exclude"),
+        ("exclude word", "exclude word:"),
         ("score 0", "score 0"),
     ]:
         sub = rej_df[rej_df["Reason"].str.startswith(key)]
