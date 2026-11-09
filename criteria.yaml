@@ -20,6 +20,15 @@ locations:
   - name: "Toronto, Canada"
     country: "Canada"
 
+# Boost Gulf jobs by +1 in the final ranking
+preferred_locations:
+  - Dubai
+  - UAE
+  - Doha
+  - Qatar
+  - Riyadh
+  - Saudi
+
 search_terms:
   - "network operations manager"
   - "NOC manager"
@@ -32,7 +41,7 @@ search_terms:
 employment_types:
   - fulltime
 
-# 1. HARD GATE: Title MUST contain one of these (stops random roles)
+# 1. HARD GATE: Title MUST contain one of these (English, French, or Arabic)
 role_keywords:
   - network
   - noc
@@ -46,6 +55,16 @@ role_keywords:
   - director
   - project
   - program
+  - leader
+  - gestionnaire
+  - مدير
+  - réseau
+  - شبكات
+  - شبكة
+  - الشبكات
+  - الشبكة
+  - اتصالات
+  - الاتصالات
 
 # 2. HARD GATE: Title MUST contain a seniority word
 seniority_keywords:
@@ -54,6 +73,9 @@ seniority_keywords:
   - head
   - lead
   - director
+  - leader
+  - gestionnaire
+  - مدير
 
 # 3. EXCLUDE: Job is dropped if title contains any of these
 exclude_title_words:
@@ -118,6 +140,26 @@ title_keywords:
   - data center
   - service delivery
   - managed services
+  - ICT
+  - OSP
+  - outside plant
+  - réseau
+  - شبكات
+  - شبكة
+  - الشبكات
+  - الشبكة
+  - اتصالات
+  - الاتصالات
+
+# Related fields (+1 point, sends to MAYBE list)
+adjacent_title_keywords:
+  - cyber
+  - cybersecurity
+  - security
+  - devops
+  - digital
+  - platform
+  - application
 
 # PRIORITY BONUS (+3 points added to Final Rank Score)
 priority_companies:
