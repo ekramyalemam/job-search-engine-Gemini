@@ -1,0 +1,98 @@
+RUN SUMMARY 2026-11-10
+
+SITES
+linkedin: 708 jobs from 37/40 searches (used)
+indeed: 452 jobs from 36/40 searches (used)
+bayt: 0 jobs from 0/4 searches (skipped)
+google: 0 jobs from 0/4 searches (skipped)
+glassdoor: 0 jobs from 0/4 searches (skipped)
+zip_recruiter: 0 jobs from 0/4 searches (skipped)
+
+FILTERS
+Total after removing duplicates: 855
+Dropped for missing role keyword: 135
+Dropped for seniority: 31
+Dropped for employment type: 29
+Dropped for exclude words: 66
+Rescued to MAYBE (exclude word but tech title): 4
+Dropped, score 0 (no evidence): 149
+Moved to MAYBE list (score 1-2): 210
+Strong matches before merging repeats: 235
+Merged repeated jobs: 15
+Final strong matches: 220
+Final maybe list: 204
+  Priority companies: 20
+  Industry verified: 208
+  Score 5 or more: 115
+
+REGIONS (strong matches): USA 119, Canada 49, UAE 28, KSA 18, Qatar 5, Other 1
+SCORES: 9:9, 8:2, 7:16, 6:62, 5:26, 4:62, 3:43
+
+TOP 15 (score | title | workplace | company | location)
+9 | Data Center IT Operations Manager | Onsite | Microsoft | Cartersville, GA, U…
+9 | Senior Cloud Infra and IP Engineer | Onsite | Ericsson | Riyadh, Riyadh, Sau…
+9 | Gestionnaire principal de la stratégie,… | Onsite | Bell | Toronto, Ontario, C…
+9 | Data Center Technicians Manager | Onsite | Microsoft | Dubai, Dubai, Unite…
+9 | Data Center Inventory & Asset Technicia… | Onsite | Microsoft | Dubai, DU, United A…
+9 | Infrastructure Technical Program Manage… | Onsite | Amazon Web Services… | Austin, TX, USA
+9 | Principal Network Project/Program Manag… | Onsite | AT&T | Atlanta, GA, USA
+9 | AWS Cloud Engineering Team Lead | Onsite | Kyndryl | Toronto, Ontario, C…
+9 | Technical Infrastructure Program Manage… | Onsite | Amazon Web Services… | Seattle, WA, USA
+8 | Network Development Manager, Amazon Ded… | Onsite | Amazon Web Services… | Denver, CO, USA
+8 | Escalation Manager | Onsite | Salesforce | Indianapolis, IN, U…
+7 | Team Leader - Managed Services | Remote | Convergint | Dubai, Dubai, Unite…
+7 | Senior Engagement Manager, Professional… | Onsite | Amazon Web Services… | Riyadh, Riyadh, Sau…
+7 | Telecommunications Project Manager | Onsite | Zodiac Solutions, I… | Toronto, Ontario, C…
+7 | Incident & Problem Manager, Cloud Opera… | Onsite | Sectra | Mississauga, Ontari…
+
+LOWEST 8 STRONG MATCHES
+3 | Director, Technical Operations | Remote | Accommodations Plus… | Verified
+3 | SAP NS2 Client Delivery Manager | Onsite | SAP | Verified
+3 | Manager - Technology Operations Enginee… | Onsite | American Express | Verified
+3 | Project Manager | Onsite | Telcom Construction… | Verified
+3 | Senior Facilities Project/Program Manag… | Onsite | PotomacWave | Verified
+3 | Senior Manager, Project Management - AC… | Remote | Raytheon | Verified
+3 | Army Spectrum Operations Manager | Onsite | CACI International | Verified
+3 | Program Manager | Onsite | Amphenol Communicat… | Verified
+
+TOP 10 MAYBE (score | title | workplace | company | why)
+7 | Assistant Service Delivery Manager, Asp… | Onsite | International SOS | exclude word 'assistant' but title has a tech word
+7 | Assistant Service Delivery Manager, Asp… | Onsite | Aspire Lifestyles | exclude word 'assistant' but title has a tech word
+6 | Inside Account Executive | Hybrid | Cisco | score 2 below 3
+6 | Manager Statflo Strategy | Onsite | Rogers Communicatio… | score 2 below 3
+6 | Customer Support Manager | Onsite | Motorola Solutions | score 2 below 3
+6 | Leader, Systems Engineering | Onsite | Cisco | score 2 below 3
+6 | Sr Manager Value Management | Onsite | Rogers Communicatio… | score 2 below 3
+6 | Directeur, gestion de projets clients -… | Onsite | TELUS | score 2 below 3
+6 | Manager II, Retail Wireless Network Ope… | Onsite | EchoStar Corporation | exclude word 'retail' but title has a tech word
+5 | Critical Accounts Manager | Onsite | Cisco | score 2 below 3
+
+DROPPED SAMPLES (to check nothing good is lost)
+- missing role: 135 total; examples:
+    Bell Attendant [YR] | Onsite | Dolly Parton's Song… | missing role keyword
+    Application Analyst | Hybrid | City of Burlington,… | missing role keyword
+    PSD Engineer | Onsite | RATP Dev | missing role keyword
+    Principal Design Engineer - Structures | Onsite | AECOM | missing role keyword
+    SVP, Multi-Family - Property & Asset Ma… | Onsite | JLL | missing role keyword
+    Software Engineer II | Hybrid | TD | missing role keyword
+- seniority: 31 total; examples:
+    Wealth Operations Analyst I | Onsite | TD | no seniority word i…
+    Network Engineer - Rugby School Dubai | Onsite | Aldar Academies | no seniority word i…
+    Site Supervisor, Child Care Centre | Onsite | Network Childcare S… | no seniority word i…
+    OPERATIONS SUPERVISOR (TRANS & DIST) | Onsite | QatarEnergy | no seniority word i…
+    Commercial Operations Specialist | Onsite | Qatar Airways | no seniority word i…
+    Inflight Training Operations Controller | Onsite | Porter Airlines Inc. | no seniority word i…
+- exclude word: 66 total; examples:
+    Director, Restaurant Technology Deploym… | Onsite | Restaurant Brands I… | exclude word: resta…
+    WW High Velocity Sales Program Manager,… | Hybrid | Hewlett Packard Ent… | exclude word: sales
+    2027 Retail Vendor Manager Intern, MENA… | Onsite | Amazon.com | exclude word: retail
+    Assistant Director | Onsite | CareerSource NEFL | exclude word: assis…
+    Senior Marketing and Communications Man… | Onsite | Accor | exclude word: marke…
+    Vice President, Client Executive Financ… | Onsite | Citi | exclude word: sales
+- score 0: 149 total; examples:
+    Head of Development | Onsite | WSP | score 0: no role or…
+    Signal Manager | Hybrid | NCTD | score 0: no role or…
+    Field Service Manager - Technical Suppo… | Onsite | GE Vernova | score 0: no role or…
+    Senior Interface Manager | Hybrid | Mace | score 0: no role or…
+    Call Center Manager | Onsite | Maximus | score 0: no role or…
+    Director, New Accounts and Documentation | Onsite | RBC | score 0: no role or…

@@ -1,38 +1,125 @@
-OK     linkedin | network operations manager | Toronto, ON, Canada -> 20 jobs
-OK     indeed | network operations manager | Toronto, ON, Canada -> 20 jobs
-EMPTY  zip_recruiter | network operations manager | Toronto, ON, Canada
-OK     linkedin | NOC manager telecom | Toronto, ON, Canada -> 20 jobs
-EMPTY  indeed | NOC manager telecom | Toronto, ON, Canada
-EMPTY  zip_recruiter | NOC manager telecom | Toronto, ON, Canada
-OK     linkedin | service delivery manager telecom | Toronto, ON, Canada -> 20 jobs
-OK     indeed | service delivery manager telecom | Toronto, ON, Canada -> 6 jobs
-EMPTY  zip_recruiter | service delivery manager telecom | Toronto, ON, Canada
-OK     linkedin | major incident manager IT | Toronto, ON, Canada -> 20 jobs
-OK     indeed | major incident manager IT | Toronto, ON, Canada -> 19 jobs
-EMPTY  zip_recruiter | major incident manager IT | Toronto, ON, Canada
+OK     linkedin | senior service delivery manager | Dubai, UAE -> 20 jobs
+OK     indeed | senior service delivery manager | Dubai, UAE -> 20 jobs
+EMPTY  bayt | senior service delivery manager | Dubai, UAE
+EMPTY  google | senior service delivery manager | Dubai, UAE
+EMPTY  glassdoor | senior service delivery manager | Dubai, UAE
+OK     linkedin | managed services director | Dubai, UAE -> 20 jobs
+OK     indeed | managed services director | Dubai, UAE -> 13 jobs
+EMPTY  bayt | managed services director | Dubai, UAE
+EMPTY  google | managed services director | Dubai, UAE
+EMPTY  glassdoor | managed services director | Dubai, UAE
+EMPTY  linkedin | head of service delivery | Dubai, UAE
+OK     indeed | head of service delivery | Dubai, UAE -> 20 jobs
+EMPTY  bayt | head of service delivery | Dubai, UAE
+EMPTY  google | head of service delivery | Dubai, UAE
+EMPTY  glassdoor | head of service delivery | Dubai, UAE
+OK     linkedin | customer operations manager telecom | Dubai, UAE -> 20 jobs
+OK     indeed | customer operations manager telecom | Dubai, UAE -> 1 jobs
+EMPTY  bayt | customer operations manager telecom | Dubai, UAE
+SKIPPED bayt: no jobs after 4 tries
+EMPTY  google | customer operations manager telecom | Dubai, UAE
+SKIPPED google: no jobs after 4 tries
+EMPTY  glassdoor | customer operations manager telecom | Dubai, UAE
+SKIPPED glassdoor: no jobs after 4 tries
+OK     linkedin | network operations manager | Dubai, UAE -> 20 jobs
+OK     indeed | network operations manager | Dubai, UAE -> 20 jobs
+OK     linkedin | major incident manager | Dubai, UAE -> 20 jobs
+OK     indeed | major incident manager | Dubai, UAE -> 6 jobs
+OK     linkedin | cloud service delivery manager | Dubai, UAE -> 20 jobs
+OK     indeed | cloud service delivery manager | Dubai, UAE -> 10 jobs
+OK     linkedin | telecom program manager | Dubai, UAE -> 20 jobs
+OK     indeed | telecom program manager | Dubai, UAE -> 3 jobs
+OK     linkedin | senior service delivery manager | Doha, Qatar -> 20 jobs
+OK     indeed | senior service delivery manager | Doha, Qatar -> 12 jobs
+OK     linkedin | managed services director | Doha, Qatar -> 17 jobs
+EMPTY  indeed | managed services director | Doha, Qatar
+OK     linkedin | head of service delivery | Doha, Qatar -> 20 jobs
+OK     indeed | head of service delivery | Doha, Qatar -> 15 jobs
+EMPTY  linkedin | customer operations manager telecom | Doha, Qatar
+EMPTY  indeed | customer operations manager telecom | Doha, Qatar
+OK     linkedin | network operations manager | Doha, Qatar -> 14 jobs
+OK     indeed | network operations manager | Doha, Qatar -> 12 jobs
+OK     linkedin | major incident manager | Doha, Qatar -> 8 jobs
+OK     indeed | major incident manager | Doha, Qatar -> 1 jobs
+OK     linkedin | cloud service delivery manager | Doha, Qatar -> 19 jobs
+OK     indeed | cloud service delivery manager | Doha, Qatar -> 1 jobs
+OK     linkedin | telecom program manager | Doha, Qatar -> 20 jobs
+EMPTY  indeed | telecom program manager | Doha, Qatar
+OK     linkedin | senior service delivery manager | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | senior service delivery manager | Riyadh, Saudi Arabia -> 20 jobs
+EMPTY  linkedin | managed services director | Riyadh, Saudi Arabia
+OK     indeed | managed services director | Riyadh, Saudi Arabia -> 1 jobs
+OK     linkedin | head of service delivery | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | head of service delivery | Riyadh, Saudi Arabia -> 8 jobs
+OK     linkedin | customer operations manager telecom | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | customer operations manager telecom | Riyadh, Saudi Arabia -> 2 jobs
+OK     linkedin | network operations manager | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | network operations manager | Riyadh, Saudi Arabia -> 14 jobs
+OK     linkedin | major incident manager | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | major incident manager | Riyadh, Saudi Arabia -> 3 jobs
+OK     linkedin | cloud service delivery manager | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | cloud service delivery manager | Riyadh, Saudi Arabia -> 8 jobs
+OK     linkedin | telecom program manager | Riyadh, Saudi Arabia -> 20 jobs
+OK     indeed | telecom program manager | Riyadh, Saudi Arabia -> 3 jobs
+OK     linkedin | senior service delivery manager | Toronto, Canada -> 20 jobs
+OK     indeed | senior service delivery manager | Toronto, Canada -> 20 jobs
+EMPTY  zip_recruiter | senior service delivery manager | Toronto, Canada
+OK     linkedin | managed services director | Toronto, Canada -> 20 jobs
+OK     indeed | managed services director | Toronto, Canada -> 20 jobs
+EMPTY  zip_recruiter | managed services director | Toronto, Canada
+OK     linkedin | head of service delivery | Toronto, Canada -> 20 jobs
+OK     indeed | head of service delivery | Toronto, Canada -> 20 jobs
+EMPTY  zip_recruiter | head of service delivery | Toronto, Canada
+OK     linkedin | customer operations manager telecom | Toronto, Canada -> 20 jobs
+OK     indeed | customer operations manager telecom | Toronto, Canada -> 9 jobs
+EMPTY  zip_recruiter | customer operations manager telecom | Toronto, Canada
 SKIPPED zip_recruiter: no jobs after 4 tries
-OK     linkedin | customer operations manager | Toronto, ON, Canada -> 20 jobs
-OK     indeed | customer operations manager | Toronto, ON, Canada -> 20 jobs
-OK     linkedin | network operations manager | Vaughan, ON, Canada -> 20 jobs
-OK     indeed | network operations manager | Vaughan, ON, Canada -> 20 jobs
-OK     linkedin | NOC manager telecom | Vaughan, ON, Canada -> 20 jobs
-EMPTY  indeed | NOC manager telecom | Vaughan, ON, Canada
-OK     linkedin | service delivery manager telecom | Vaughan, ON, Canada -> 20 jobs
-OK     indeed | service delivery manager telecom | Vaughan, ON, Canada -> 6 jobs
-OK     linkedin | major incident manager IT | Vaughan, ON, Canada -> 20 jobs
-OK     indeed | major incident manager IT | Vaughan, ON, Canada -> 20 jobs
-OK     linkedin | customer operations manager | Vaughan, ON, Canada -> 20 jobs
-OK     indeed | customer operations manager | Vaughan, ON, Canada -> 20 jobs
+OK     linkedin | network operations manager | Toronto, Canada -> 20 jobs
+OK     indeed | network operations manager | Toronto, Canada -> 20 jobs
+OK     linkedin | major incident manager | Toronto, Canada -> 10 jobs
+OK     indeed | major incident manager | Toronto, Canada -> 20 jobs
+OK     linkedin | cloud service delivery manager | Toronto, Canada -> 20 jobs
+OK     indeed | cloud service delivery manager | Toronto, Canada -> 20 jobs
+OK     linkedin | telecom program manager | Toronto, Canada -> 20 jobs
+OK     indeed | telecom program manager | Toronto, Canada -> 13 jobs
+OK     linkedin | senior service delivery manager | United States -> 20 jobs
+OK     indeed | senior service delivery manager | United States -> 20 jobs
+OK     linkedin | managed services director | United States -> 20 jobs
+OK     indeed | managed services director | United States -> 20 jobs
+OK     linkedin | head of service delivery | United States -> 20 jobs
+OK     indeed | head of service delivery | United States -> 20 jobs
+OK     linkedin | customer operations manager telecom | United States -> 20 jobs
+OK     indeed | customer operations manager telecom | United States -> 8 jobs
+OK     linkedin | network operations manager | United States -> 20 jobs
+EMPTY  indeed | network operations manager | United States
+OK     linkedin | major incident manager | United States -> 20 jobs
+OK     indeed | major incident manager | United States -> 20 jobs
+OK     linkedin | cloud service delivery manager | United States -> 20 jobs
+OK     indeed | cloud service delivery manager | United States -> 20 jobs
+OK     linkedin | telecom program manager | United States -> 20 jobs
+OK     indeed | telecom program manager | United States -> 9 jobs
 
 === SITE SUMMARY ===
-linkedin: 200 jobs from 10/10 searches (used)
-indeed: 131 jobs from 8/10 searches (used)
+linkedin: 708 jobs from 37/40 searches (used)
+indeed: 452 jobs from 36/40 searches (used)
+bayt: 0 jobs from 0/4 searches (skipped)
+google: 0 jobs from 0/4 searches (skipped)
+glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 === FILTERS ===
-Total after merging duplicates: 132
-Dropped for excluded title keywords (e.g. retail): 5
-Dropped for missing role keyword in title: 48
-Dropped for seniority: 7
-Dropped for industry: 32
-Final jobs kept: 40
+Total after removing duplicates: 855
+Dropped for missing role keyword: 135
+Dropped for seniority: 31
+Dropped for employment type: 29
+Dropped for exclude words: 66
+Rescued to MAYBE (exclude word but tech title): 4
+Dropped, score 0 (no evidence): 149
+Moved to MAYBE list (score 1-2): 210
+Strong matches before merging repeats: 235
+Merged repeated jobs: 15
+Final strong matches: 220
+Final maybe list: 204
+  Priority companies: 20
+  Industry verified: 208
+  Score 5 or more: 115
