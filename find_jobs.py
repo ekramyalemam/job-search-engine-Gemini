@@ -1,4 +1,4 @@
-"""Gemini Hybrid (v5): Multilingual support, rescue logic, strict role gates, +3 Priority boost."""
+"""Gemini Hybrid (v7): Remote/Workplace parsing, Executive Gates, Priority Boost."""
 import os
 import random
 import re
@@ -60,10 +60,11 @@ def region(location):
         ("qatar", "Qatar"), ("doha", "Qatar"),
         ("saudi", "KSA"), ("riyadh", "KSA"), ("jeddah", "KSA"),
         ("canada", "Canada"), ("ontario", "Canada"),
+        ("united states", "USA"), ("usa", "USA"), ("texas", "USA"),
     ]:
         if key in s:
             return name
-    return "US/Other"
+    return "Other"
 
 def tidy(d):
     d = d.drop(columns=["_tier"]).sort_values(["Score", "_date"], ascending=[False, False])
@@ -77,6 +78,7 @@ def tidy(d):
         "Priority": "first",
         "Title": "first",
         "Company": "first",
+        "Workplace": "first",
         "Location": lambda s: join_unique(s, " | "),
         "Employment type": "first",
         "Industry": "first",
@@ -180,7 +182,16 @@ def main():
     type_col = col(jobs, "job_type")
     idx = jobs.index
 
-    # --- Hard rules: Role Gate, Seniority, Employment Type, Exclude Words ---
+    # Workplace Parsing
+    is_rem = col(jobs, "is_remote").str.lower()
+    loc_lower = col(jobs, "location").str.lower()
+    desc_lower = desc.str.lower()
+    
+    workplace = pd.Series("Onsite", index=idx)
+    workplace = workplace.mask(desc_lower.str.contains(r"\bhybrid\b", regex=True) | loc_lower.str.contains(r"\bhybrid\b", regex=True), "Hybrid")
+    workplace = workplace.mask((is_rem == "true") | loc_lower.str.contains(r"\bremote\b", regex=True) | desc_lower.str.contains(r"\bremote\b", regex=True), "Remote")
+
+    # Hard rules
     role_found = title.apply(lambda t: word_start(t, c.get("role_keywords", [])))
     sen_found = title.apply(lambda t: whole_word(t, c.get("seniority_keywords", [])))
     seniority = sen_found.where(level_col == "", level_col)
@@ -194,7 +205,7 @@ def main():
     ex_hit = title.apply(lambda t: whole_word(t, c.get("exclude_title_words", [])))
     title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
 
-    # --- Relevance score ---
+    # Relevance score
     pri_names = c.get("priority_companies", [])
     not_pri = c.get("not_priority_companies", [])
     is_pri = company.apply(lambda v: is_priority(v, pri_names, not_pri))
@@ -217,13 +228,10 @@ def main():
     )
     min_score = c.get("min_relevance_score", 3)
 
-    # --- Decide the tier and the reason for every job ---
     reason = pd.Series("", index=idx)
     reason = reason.mask((reason == "") & (role_found == ""), "missing role keyword")
     reason = reason.mask((reason == "") & (sen_found == ""), "no seniority word in title")
     reason = reason.mask((reason == "") & ~type_keep, "employment type: " + type_col)
-    
-    # An exclude word blocks a job, unless the title also has a tech word (Rescued to MAYBE)
     reason = reason.mask((reason == "") & (ex_hit != "") & ~title_hit, "exclude word: " + ex_hit)
     
     passed = reason == ""
@@ -253,12 +261,12 @@ def main():
     pref = c.get("preferred_locations", []) or []
     loc_bonus = col(jobs, "location").apply(lambda v: 1 if word_start(v, pref) != "" else 0)
 
-    # Gemini Strict +3 Priority Boost applied alongside Claude's Location Bonus
     full = pd.DataFrame({
         "Score": score + (is_pri.astype(int) * 3) + loc_bonus,
         "Priority": is_pri.map({True: "Yes", False: ""}),
         "Title": title,
         "Company": company,
+        "Workplace": workplace,
         "Location": col(jobs, "location"),
         "Employment type": type_col,
         "Industry": industry,
@@ -282,10 +290,9 @@ def main():
     maybe_df = maybe_df[cols + ["Other links", "Reason"]]
 
     rej = full[full["_tier"] == "rejected"].drop_duplicates("Job link")
-    rej_df = rej[["Reason", "Title", "Company", "Location", "Site", "Job link"]]
+    rej_df = rej[["Reason", "Title", "Company", "Workplace", "Location", "Site", "Job link"]]
     rej_df = rej_df.sort_values(["Reason", "Company"]).reset_index(drop=True)
 
-    # --- Log ---
     r = reason
     n_role = int(r.str.startswith("missing role keyword").sum())
     n_sen = int(r.str.startswith("no seniority").sum())
@@ -314,7 +321,6 @@ def main():
     log.append("=== FILTERS ===")
     log.extend(filt)
 
-    # --- Write files ---
     main_df.to_csv(f"results/jobs_{today}.csv", index=False, encoding="utf-8-sig")
     main_df.to_csv("results/latest.csv", index=False, encoding="utf-8-sig")
     maybe_df.to_csv("results/maybe_latest.csv", index=False, encoding="utf-8-sig")
@@ -322,7 +328,6 @@ def main():
     with open("results/run_log.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(log))
 
-    # --- Small summary that is cheap to share ---
     reg = main_df["Location"].apply(region).value_counts().to_dict()
     sc = main_df["Score"].value_counts().sort_index(ascending=False).to_dict()
     lines = [f"RUN SUMMARY {today}", "", "SITES"]
@@ -330,15 +335,15 @@ def main():
     lines += ["", "FILTERS"] + filt
     lines += ["", "REGIONS (strong matches): " + ", ".join(f"{k} {v}" for k, v in reg.items())]
     lines += ["SCORES: " + ", ".join(f"{k}:{v}" for k, v in sc.items())]
-    lines += ["", "TOP 15 (score | title | company | location)"]
+    lines += ["", "TOP 15 (score | title | workplace | company | location)"]
     for _, row in main_df.head(15).iterrows():
-        lines.append(f"{row['Score']} | {short(row['Title'], 48)} | {short(row['Company'], 26)} | {short(row['Location'], 28)}")
+        lines.append(f"{row['Score']} | {short(row['Title'], 40)} | {row['Workplace']} | {short(row['Company'], 20)} | {short(row['Location'], 20)}")
     lines += ["", "LOWEST 8 STRONG MATCHES"]
     for _, row in main_df.tail(8).iterrows():
-        lines.append(f"{row['Score']} | {short(row['Title'], 48)} | {short(row['Company'], 26)} | {row['Industry check']}")
-    lines += ["", "TOP 10 MAYBE (score | title | company | why)"]
+        lines.append(f"{row['Score']} | {short(row['Title'], 40)} | {row['Workplace']} | {short(row['Company'], 20)} | {row['Industry check']}")
+    lines += ["", "TOP 10 MAYBE (score | title | workplace | company | why)"]
     for _, row in maybe_df.head(10).iterrows():
-        lines.append(f"{row['Score']} | {short(row['Title'], 48)} | {short(row['Company'], 26)} | {row['Reason']}")
+        lines.append(f"{row['Score']} | {short(row['Title'], 40)} | {row['Workplace']} | {short(row['Company'], 20)} | {row['Reason']}")
     lines += ["", "DROPPED SAMPLES (to check nothing good is lost)"]
     for label, key in [
         ("missing role", "missing role keyword"),
@@ -349,7 +354,7 @@ def main():
         sub = rej_df[rej_df["Reason"].str.startswith(key)]
         lines.append(f"- {label}: {len(sub)} total; examples:")
         for _, row in sub.sample(min(6, len(sub)), random_state=1).iterrows():
-            lines.append(f"    {short(row['Title'], 50)} | {short(row['Company'], 24)} | {short(row['Reason'], 24)}")
+            lines.append(f"    {short(row['Title'], 40)} | {row['Workplace']} | {short(row['Company'], 20)} | {short(row['Reason'], 20)}")
     text = "\n".join(lines)
     with open("results/share_me.txt", "w", encoding="utf-8") as f:
         f.write(text)
