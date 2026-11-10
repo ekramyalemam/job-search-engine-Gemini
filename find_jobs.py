@@ -1,4 +1,9 @@
-"""Gemini Hybrid (v7): Remote/Workplace parsing, Executive Gates, Priority Boost."""
+"""
+=========================================================
+find_jobs.py - v10 (Ultimate Hybrid)
+Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost
+=========================================================
+"""
 import os
 import random
 import re
@@ -182,7 +187,7 @@ def main():
     type_col = col(jobs, "job_type")
     idx = jobs.index
 
-    # Workplace Parsing
+    # Workplace Parsing (Remote / Hybrid / Onsite)
     is_rem = col(jobs, "is_remote").str.lower()
     loc_lower = col(jobs, "location").str.lower()
     desc_lower = desc.str.lower()
@@ -191,7 +196,7 @@ def main():
     workplace = workplace.mask(desc_lower.str.contains(r"\bhybrid\b", regex=True) | loc_lower.str.contains(r"\bhybrid\b", regex=True), "Hybrid")
     workplace = workplace.mask((is_rem == "true") | loc_lower.str.contains(r"\bremote\b", regex=True) | desc_lower.str.contains(r"\bremote\b", regex=True), "Remote")
 
-    # Hard rules
+    # Hard rules: Role Gate, Seniority, Employment Type, Exclude Words
     role_found = title.apply(lambda t: word_start(t, c.get("role_keywords", [])))
     sen_found = title.apply(lambda t: whole_word(t, c.get("seniority_keywords", [])))
     seniority = sen_found.where(level_col == "", level_col)
@@ -261,6 +266,7 @@ def main():
     pref = c.get("preferred_locations", []) or []
     loc_bonus = col(jobs, "location").apply(lambda v: 1 if word_start(v, pref) != "" else 0)
 
+    # Apply Score, Priority Bonus (+3), and Location Bonus
     full = pd.DataFrame({
         "Score": score + (is_pri.astype(int) * 3) + loc_bonus,
         "Priority": is_pri.map({True: "Yes", False: ""}),
