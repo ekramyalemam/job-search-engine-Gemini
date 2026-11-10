@@ -1,188 +1,73 @@
-# JOB SEARCH SETTINGS
-
-sites:
-  - linkedin
-  - indeed
-
-optional_sites:
-  - bayt
-  - google
-  - glassdoor
-  - zip_recruiter
-
-locations:
-  - name: "Dubai, UAE"
-    country: "United Arab Emirates"
-  - name: "Doha, Qatar"
-    country: "Qatar"
-  - name: "Riyadh, Saudi Arabia"
-    country: "Saudi Arabia"
-  - name: "Toronto, Canada"
-    country: "Canada"
-
-# Boost Gulf jobs by +1 in the final ranking
-preferred_locations:
-  - Dubai
-  - UAE
-  - Doha
-  - Qatar
-  - Riyadh
-  - Saudi
-
+# SEARCH TERMS (Balanced across 3 Pillars)
 search_terms:
-  - "network operations manager"
-  - "NOC manager"
-  - "service delivery manager telecom"
-  - "major incident manager"
+  # Pillar 1: Core Telecom & Managed Services
+  - "service delivery director telecom"
+  - "customer operations manager"
+  - "NOC manager telecom"
+  - "managed services director"
+  - "telecom program manager"
+
+  # Pillar 2: Cloud Industry Transition
+  - "cloud service delivery manager"
   - "cloud operations manager"
+  - "cloud infrastructure manager"
+  - "director cloud operations"
+
+  # Pillar 3: IT Networking & Infrastructure Transition
+  - "network operations director"
   - "IT infrastructure manager"
-  - "telecom project manager"
+  - "major incident manager IT"
+  - "infrastructure delivery manager"
 
-employment_types:
-  - fulltime
-
-# 1. HARD GATE: Title MUST contain one of these (English, French, or Arabic)
-role_keywords:
-  - network
-  - noc
-  - operations
-  - delivery
-  - incident
-  - escalation
-  - reliability
-  - cloud
-  - manager
-  - director
-  - project
-  - program
-  - leader
-  - gestionnaire
-  - مدير
-  - réseau
-  - شبكات
-  - شبكة
-  - الشبكات
-  - الشبكة
-  - اتصالات
-  - الاتصالات
-
-# 2. HARD GATE: Title MUST contain a seniority word
-seniority_keywords:
-  - senior
-  - manager
-  - head
-  - lead
-  - director
-  - leader
-  - gestionnaire
-  - مدير
-
-# 3. EXCLUDE: Job is dropped if title contains any of these
-exclude_title_words:
-  - store
-  - retail
-  - sales
-  - marketing
-  - recruiter
-  - hr
-  - human resources
-  - customer success
-  - finance
-  - accounting
-  - legal
-  - warehouse
-  - hospitality
-  - construction
-  - highways
-  - clinical
-  - driver
-  - logistics
-  - real estate
-
-# INDUSTRY MATCHING
+# INDUSTRIES (Ensures high relevance score +2)
 industries:
+  # Telecom
   - telecom
   - telecommunications
+  - telco
+  - mobile network
+  - core network
+  - radio access
+  - managed services
+  # Cloud
+  - cloud
+  - AWS
+  - Azure
+  - cloud infrastructure
+  - managed cloud
+  # IT Networking
   - networking
   - network operations
-  - cloud
+  - IT infrastructure
   - data center
-  - wireless
-  - 5G
-  - fiber
-  - managed services
+  - enterprise networking
 
-# JOB FUNCTION MATCHING
-job_functions:
-  - operations
-  - delivery
-  - incident
-  - project
-  - program
-
-# SCORING SYSTEM
-min_relevance_score: 3
-
-# High-value title words (+3 points)
+# TITLE KEYWORDS (+3 Score Boost)
 title_keywords:
+  # Telecom Core
   - network
   - NOC
   - telecom
   - telecommunications
+  - core network
+  - 5G
+  - 4G
+  - RAN
+  - managed services
+  - service delivery
+  - customer operations
+  # Cloud
   - cloud
+  - AWS
+  - Azure
+  - cloud operations
+  - cloud delivery
+  - SRE
+  - reliability
+  # IT Networking
   - infrastructure
   - incident
-  - escalation
-  - reliability
-  - wireless
-  - fiber
-  - 5G
+  - IP network
   - data center
-  - service delivery
-  - managed services
   - ICT
-  - OSP
-  - outside plant
-  - réseau
-  - شبكات
-  - شبكة
-  - الشبكات
-  - الشبكة
-  - اتصالات
-  - الاتصالات
-
-# Related fields (+1 point, sends to MAYBE list)
-adjacent_title_keywords:
-  - cyber
-  - cybersecurity
-  - security
-  - devops
-  - digital
-  - platform
-  - application
-
-# PRIORITY BONUS (+3 points added to Final Rank Score)
-priority_companies:
-  - Verizon
-  - AT&T
-  - Cisco
-  - HPE
-  - Bell
-  - Rogers
-  - TELUS
-  - Motorola Solutions
-  - Nokia
-  - Ericsson
-
-# False-positive companies (never marked as priority)
-not_priority_companies:
-  - Bell Techlogix
-  - Bell Textron
-  - Bell Flight
-  - Bell Bank
-  - Bell Helicopter
-
-days_back: 7
-results_per_search: 20
-linkedin_fetch_description: true
-skip_site_after_failures: 4
+  - network operations
