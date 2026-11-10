@@ -1,3 +1,5 @@
+# JOB SEARCH SETTINGS (v10 Gemini/Claude Ultimate)
+
 sites:
   - linkedin
   - indeed
@@ -8,43 +10,36 @@ optional_sites:
   - glassdoor
   - zip_recruiter
 
-locations:
-  - name: "United States"
-    country: "USA"
-  - name: "Canada"
-    country: "Canada"
-  - name: "Saudi Arabia"
-    country: "Saudi Arabia"
-  - name: "Qatar"
-    country: "Qatar"
-  - name: "United Arab Emirates"
-    country: "United Arab Emirates"
-
-preferred_locations:
-  - Dubai
-  - UAE
-  - Doha
-  - Qatar
-  - Riyadh
-  - Saudi
-  - Toronto
-  - Ontario
-
+# Aimed at manager, senior manager and director roles in managed services,
+# service delivery and customer operations (telecom), with a path into cloud and IT networking.
 search_terms:
-  - "managed services director"
-  - "service delivery director telecom"
-  - "head of service delivery"
-  - "customer operations director"
-  - "network operations director"
   - "senior service delivery manager"
-  - "customer operations manager"
-  - "NOC manager telecom"
+  - "managed services director"
+  - "head of service delivery"
+  - "customer operations manager telecom"
+  - "network operations manager"
+  - "major incident manager"
   - "cloud service delivery manager"
   - "telecom program manager"
+
+locations:
+  - name: "Dubai, UAE"
+    country: "United Arab Emirates"
+  - name: "Doha, Qatar"
+    country: "Qatar"
+  - name: "Riyadh, Saudi Arabia"
+    country: "Saudi Arabia"
+  - name: "Toronto, Canada"
+    country: "Canada"
+  - name: "United States"
+    country: "USA"
 
 employment_types:
   - fulltime
 
+remote_only: false
+
+# 1. HARD GATE: Title MUST contain at least one role/title word
 role_keywords:
   - network
   - noc
@@ -75,22 +70,26 @@ role_keywords:
   - شبكة
   - الاتصالات
 
+# 2. HARD GATE: Title MUST contain a seniority level
 seniority_keywords:
   - senior
   - manager
   - head
   - lead
-  - director
   - leader
+  - director
   - executive
+  - vice president
   - vp
   - president
   - chief
   - general manager
   - gestionnaire
   - directeur
+  - directrice
   - مدير
 
+# 3. EXCLUDE: Hard drop (Junior roles, non-tech)
 exclude_title_words:
   - store
   - retail
@@ -98,6 +97,9 @@ exclude_title_words:
   - marketing
   - recruiter
   - recruitment
+  - assistant
+  - intern
+  - junior
   - human resources
   - hr
   - customer service
@@ -120,8 +122,11 @@ exclude_title_words:
   - driver
   - logistics
   - supply chain
+  - food
+  - property
   - real estate
 
+# INDUSTRY MATCHING
 industries:
   - telecom
   - telecommunications
@@ -148,6 +153,7 @@ industries:
   - broadband
   - managed services
 
+# JOB FUNCTION MATCHING (+1 point)
 job_functions:
   - operations
   - delivery
@@ -162,8 +168,10 @@ job_functions:
   - professional services
   - engagement
 
+# SCORING SYSTEM
 min_relevance_score: 3
 
+# High-value title keywords (+3 points) - Generic words safely removed
 title_keywords:
   - network
   - NOC
@@ -202,6 +210,7 @@ title_keywords:
   - شبكة
   - الاتصالات
 
+# Related fields (+1 point, routes lower matches to MAYBE list)
 adjacent_title_keywords:
   - cyber
   - cybersecurity
@@ -211,6 +220,7 @@ adjacent_title_keywords:
   - platform
   - application
 
+# PRIORITY BONUS (+3 points in final ranking score)
 priority_companies:
   - Nokia
   - Ericsson
@@ -224,16 +234,26 @@ priority_companies:
   - AT&T
   - T-Mobile
   - Comcast
+  - Salesforce
+  - Charter Communications
+  - America Movil
+  - Lumen
+  - Cox Communications
   - Motorola Solutions
   - Ciena
   - Palo Alto Networks
+  - Arista Networks
   - Fortinet
+  - Altice USA
+  - CommScope
   - Amazon Web Services
+  - AWS
   - Microsoft
-  - Google Cloud
+  - Google
   - Kyndryl
   - Amdocs
 
+# False-positive companies (never marked as priority)
 not_priority_companies:
   - Bell Techlogix
   - Bell Textron
@@ -241,7 +261,12 @@ not_priority_companies:
   - Bell Bank
   - Bell Helicopter
 
+# Preferred location ranking bonus (+1 in final score)
+preferred_locations: [Dubai, UAE, Doha, Qatar, Riyadh, Saudi, Toronto, Ontario]
+
 days_back: 7
 results_per_search: 20
+min_match_percent: 75
+
 linkedin_fetch_description: true
 skip_site_after_failures: 4
