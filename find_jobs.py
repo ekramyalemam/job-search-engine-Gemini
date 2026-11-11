@@ -1,6 +1,6 @@
 """
 =========================================================
-find_jobs.py - v10 (Ultimate Hybrid)
+find_jobs.py - v12 (Hybrid + bonus-only companies + no-engineer filter)
 Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost
 =========================================================
 """
@@ -207,6 +207,9 @@ def main():
     else:
         type_keep = pd.Series(True, index=idx)
 
+    mgmt_found = title.apply(lambda t: whole_word(t, c.get("management_words", [])))
+    ic_hit = title.apply(lambda t: whole_word(t, c.get("individual_contributor_words", [])))
+
     ex_hit = title.apply(lambda t: whole_word(t, c.get("exclude_title_words", [])))
     title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
 
@@ -217,7 +220,9 @@ def main():
 
     blob = title + " " + company + " " + desc + " " + industry_col
     ind_found = blob.apply(lambda t: word_start(t, c.get("industries", [])))
-    ind_ok = (ind_found != "") | is_pri
+    bonus_only = c.get("bonus_only_companies", []) or []
+    is_broad = company.apply(lambda v: is_priority(v, bonus_only, not_pri))
+    ind_ok = (ind_found != "") | (is_pri & ~is_broad)
     has_info = (desc != "") | (industry_col != "")
 
     func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
@@ -236,6 +241,7 @@ def main():
     reason = pd.Series("", index=idx)
     reason = reason.mask((reason == "") & (role_found == ""), "missing role keyword")
     reason = reason.mask((reason == "") & (sen_found == ""), "no seniority word in title")
+    reason = reason.mask((reason == "") & (ic_hit != "") & (mgmt_found == ""), "engineer/specialist title: " + ic_hit)
     reason = reason.mask((reason == "") & ~type_keep, "employment type: " + type_col)
     reason = reason.mask((reason == "") & (ex_hit != "") & ~title_hit, "exclude word: " + ex_hit)
     
@@ -303,6 +309,7 @@ def main():
     n_role = int(r.str.startswith("missing role keyword").sum())
     n_sen = int(r.str.startswith("no seniority").sum())
     n_emp = int(r.str.startswith("employment").sum())
+    n_ic = int(r.str.startswith("engineer/specialist").sum())
     n_exc = int(r.str.startswith("exclude word:").sum())
     n_resc = int(rescued.sum())
     n_zero = int(r.str.startswith("score 0").sum())
@@ -311,6 +318,7 @@ def main():
         f"Dropped for missing role keyword: {n_role}",
         f"Dropped for seniority: {n_sen}",
         f"Dropped for employment type: {n_emp}",
+        f"Dropped as engineer/specialist (not a manager): {n_ic}",
         f"Dropped for exclude words: {n_exc}",
         f"Rescued to MAYBE (exclude word but tech title): {n_resc}",
         f"Dropped, score 0 (no evidence): {n_zero}",
@@ -354,6 +362,7 @@ def main():
     for label, key in [
         ("missing role", "missing role keyword"),
         ("seniority", "no seniority"),
+        ("engineer/specialist", "engineer/specialist"),
         ("exclude word", "exclude word:"),
         ("score 0", "score 0"),
     ]:
