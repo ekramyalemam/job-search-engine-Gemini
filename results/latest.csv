@@ -182,7 +182,57 @@ This position will be open for a minimum of 5 days, with applications accepted o
   
 Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about
 **requesting accommodations.**",
-9,Yes,Senior Cloud Infra and IP Engineer,Ericsson,Onsite,"Riyadh, Riyadh, Saudi Arabia",,cloud,Verified,Other,senior,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487942376,,
+9,Yes,Senior Cloud Infra and IP Engineer,Ericsson,Onsite,"Riyadh, Riyadh, Saudi Arabia",fulltime,Telecommunications,Verified,operations,not applicable,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4487942376,"**Join our Team**
+**About this opportunity:**
+As Senior Backoffice IP Networks & Cloud Infrastructure Operations Engineer in managed services, you will be leading a highly skilled team consisting of more than 6 Engineers to lead the second level operation of one of the large multivendor Telco-Cloud and IP networks in the manages services. You will be basically responsible for achieving the IP network and cloud infrastructure operational targets under the contractual KPIs and maintain the deliverables quality within the SLAs.
+  
+  
+**What you will do:**
+
+* Fault management and TT resolution
+* Change request management
+* Incident and emergency handling
+* New nodes and service introduction
+* Nodes/System Upgrades to manage life cycle management
+* Dealing with internal teams and all vendors TAC to apply changes that match customer needs.
+
+**The skills you bring:**
+
+* At least 3 years in leadership roles in IP network and Telco-Cloud operations or equivalent.
+* At least 10 years in IP network and Telco-Cloud operations or equivalent Experience.
+* Ability to Implement new techniques, or to apply positive changes to the existing processes to improve the operational efficiency.
+* Ability as team lead to cope with a highly demanding customer while maintaining the highest customer satisfaction levels,
+* Promote the team work spirit and achieve the best collaboration between all team members,
+* Efficiently assign tasks and goals, measure and track the individual performance with a clear plan for continues skilling up,
+* Hire, develop, coach, and steer the team efforts to the correct business direction,
+* Promote the automation in the team to drive operation excellence with cost effective solutions,
+* Work efficiently with different domains like planning and support organizations with articulating the proper WLA/OLA to achieve the business goals.
+* Advanced understanding of IP /MPLS technologies used in Telecom networks is a must
+* Excellent knowledge of IP routing Protocols (OSPF,ISIS,BGP)
+* Excellent knowledge of MPLS Technologies (MPLS-TE,LDP,VPLS)
+* Excellent knowledge of switching technologies
+* OpenStack hands-on experience is mandatory and certification is plus.
+* Excellent knowledge dealing with Linux and troubleshooting Linux (RedHat/Debian)
+* Excellent knowledge of virtualization platforms like ESXi/KVM.
+* Excellent hands-on experience in OpenStack, Kubernetes 'K8s' troubleshooting is mandatory.
+* Excellent hands-on experience NFVi Technologies ""storage, networking, computing"".
+* Network automation and programming skills (ex.: Ansible/Python) is a plus
+* CCNP SP or CCIP Certified or Juniper Equivalent is mandatory and CCIE or Juniper Equivalent is a plus
+
+**Why join Ericsson?**
+At Ericsson, you´ll have an outstanding opportunity. The chance to use your skills and imagination to push the boundaries of what´s possible. To build solutions never seen before to some of the world’s toughest problems. You´ll be challenged, but you won’t be alone. You´ll be joining a team of diverse innovators, all driven to go beyond the status quo to craft what comes next.
+  
+  
+**What happens once you apply?**
+Click Here to find all you need to know about what our typical hiring process looks like.Encouraging a diverse and inclusive organization is core to our values at Ericsson, that's why we champion it in everything we do. We truly believe that by collaborating with people with different experiences we drive innovation, which is essential for our future growth. We encourage people from all backgrounds to apply and realize their full potential as part of our Ericsson team. Ericsson is proud to be an Equal Opportunity Employer. learn more.
+  
+  
+**Primary country and city:**
+Saudi Arabia (SA) || Riyadh
+  
+  
+**Req ID:**
+793761",
 9,Yes,"Gestionnaire principal de la stratégie, Réseau d'IA tissé de Bell",Bell,Onsite,"Toronto, Ontario, Canada",fulltime,Telecommunications,Verified,operations,mid-senior level,linkedin,2026-11-09,https://www.linkedin.com/jobs/view/4489140441,"**Req Id:**
 433467
   
@@ -1817,7 +1867,129 @@ You will manage the core IT foundation supporting the engineering and agentic Sm
 * Top-Tier Tooling: Modern hardware, a fully equipped lab and cloud tools
 * Learning & Career Growth: Certification and conference support, with a clear path to leadership
 * Autonomy & Impact: Build the IT and infrastructure function from the ground up and shape how AI is deployed in the physical world",
-7,,Senior Manager - Access Network Operations,RBC,Onsite,"Toronto, Ontario, Canada",,network operations,Verified,operations,senior,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4480182877,,
+7,,Senior Manager - Access Network Operations,RBC,Remote,"Toronto, Ontario, Canada",fulltime,Banking and Financial Services,Verified,operations,not applicable,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4480182877,"**Job Description**
+**WHAT IS THE OPPORTUNITY?**
+Lead RBC's mission-critical Access Network Operations across all branches, campuses, remote home office, ATM networks, global WIFI infrastructure, and global SD-WAN deployment for branch-to-headend and global WAN connectivity. You'll drive operational excellence and modernization by championing Site Reliability Engineering practices, automation initiatives, and AI-assisted operations. Manage resilience gaps, conduct major post-incident follow-ups, and balance immediate operational stability with long-term technology support innovation, reducing manual work and accelerating response times.
+  
+  
+**WHAT WILL YOU DO?**
+**Operational Excellence | Incident – Change - Problem Management**
+
+* Lead day-to-day operations of global access network infrastructure (branches, campuses, remote workers via Aruba RAP VPN, ATM networks, WIFI, SD-WAN branch-to-headend and global WAN) ensuring high availability and adherence to service level agreements.
+* Direct critical incident management including triage, root cause analysis, stakeholder escalation and communication for infrastructure events affecting customer-facing services and business continuity.
+* Oversee change management processes to ensure smooth implementation of network changes, migrations and technology refreshes with minimal business disruption.
+* Conduct post-incident reviews and problem management activities to identify resilience gaps, drive chronic issue resolution and implement preventive measures.
+
+**Team Leadership & Development**
+
+* lead and mentor ~15 person technical operations team (Senior Network Analysts), providing coaching, performance development and succession planning to build team capability.
+* Foster a culture of continuous learning, technical excellence and operational accountability; ensure team capacity and skills align with evolving infrastructure demands.
+* Participate in cross-training initiatives and represent the team in vendor calls, implementation planning meetings and strategic technology discussions.
+
+**Modernization, Automation & AI Enablement**
+
+* Champion Site Reliability Engineering (SRE) transformation and automation initiatives to drive adoption of automation, improved observability, pro-active incident detection and remediation and AI-assisted operations.
+* Identify and prioritize automation opportunities within incident response, monitoring, alerting, and routine operational tasks to reduce manual effort and accelerate resolution times.
+* Partner with engineering and technology teams to evaluate and integrate emerging technologies (AI agents, intelligent alerting, predictive analytics) into access network operations.
+* Develop and maintain standardization initiatives, runbooks and documentation to ensure consistency and repeatability across global operations.
+
+**Strategic Planning & Cross-Functional Collaboration**
+
+* Develop operational strategies aligned with modernization priorities and business objectives; participate in planning for major network refreshes, SD-WAN expansion, and infrastructure upgrades.
+* Partner cross-functionally with network engineering, integration and business technology teams to ensure seamless integration of new platforms and technologies.
+* Represent access network operations in executive discussions; communicate operational metrics, risks and transformation progress to leadership.
+
+**WHAT DO YOU NEED TO SUCCEED?**
+**Must have:**
+
+* 6-8 years of enterprise network operations experience, with 2-4 years in leadership or senior technical management capacity.
+* Proven track record driving technology modernization and automation initiatives, including experience with infrastructure automation, orchestration platforms, or emerging operational technologies such as AI-assisted operations.
+* Strong Site Reliability Engineering foundation understanding runbooks, automation, observability, and metrics-driven operations as core operational principles.
+* Hands-on knowledge of access network infrastructure including branch/campus routing and switching (BGP, OSPF, HSRP, STP, VRF, L2/L3 Protocols), SD-WAN, remote access/NAC (Aruba wireless, ClearPass authentication), global WIFI, and ATM networks.
+* Strong incident management background managing critical incident workflows, conducting root cause analysis, and communicating effectively during high-pressure situations.
+* Proven experience managing 15+ person technical operations teams with accountability for service level agreements, metrics, and business deliverables.
+
+**Nice-to-have:**
+
+* CCNP, CISSP, or other relevant network certifications.
+* Familiarity with automation/scripting languages (Python, Ansible, Bash).
+* Hands-on experience with orchestration platforms, AI agents, or intelligent alerting systems.
+* Background leading cross-functional digital transformation or infrastructure modernization programs.
+
+**What’s in it for you?**
+We thrive on the challenge to be our best, progressive thinking to keep growing, and working together to deliver trusted advice to help our clients thrive and communities prosper. We care about each other, reaching our potential, making a difference to our communities, and achieving success that is mutual.
+  
+  
+
+* A comprehensive Total Rewards Program including competitive compensation, bonuses, and flexible benefits.
+* Continued opportunities for career advancement.
+* World-class sales training, coaching, and development opportunities.
+* Support from a dynamic, collaborative, progressive, and high performing team, as well as world-class tools and training.
+* Opportunity to achieve great success and grow your career with RBC.
+
+#TECHPJ
+  
+  
+**Job Skills**
+Capacity Planning, Decision Making, Group Problem Solving, Long Term Planning, Network Architecture, Networking Hardware, Network Operations, Network Software, Technical Troubleshooting
+  
+  
+**Additional Job Details**
+**Address:**
+RBC CENTRE, 155 WELLINGTON ST W:TORONTO
+  
+  
+**City:**
+Toronto
+  
+  
+**Country:**
+Canada
+  
+  
+**Work hours/week:**
+37.5
+  
+  
+**Employment Type:**
+Full time
+  
+  
+**Platform:**
+TECHNOLOGY AND OPERATIONS
+  
+  
+**Job Type:**
+Regular
+  
+  
+**Pay Type:**
+Salaried
+  
+  
+**Posted Date:**
+2026-10-15
+  
+  
+**Application Deadline:**
+2026-11-20
+  
+  
+**Note**
+**:**
+*Applications will be accepted until 11:59 PM on the day prior to the application deadline date above*
+**Our Employment Opportunities**
+At RBC, we are guided by living shared values of Client First, Integrity, Collaboration, Respect and Excellence and winning together as One RBC. We believe an inclusive workplace that has diverse perspectives is core to our continued growth as one of the largest and most successful banks in the world. Maintaining a workplace where our employees feel supported to perform at their best, effectively collaborate, drive innovation, and grow professionally helps to bring our Purpose to life and create value for our clients and communities. RBC strives to deliver this through policies and programs intended to foster a workplace based on respect, belonging and opportunity for all.
+  
+  
+**Join our Talent Community**
+Stay in-the-know about great career opportunities at RBC. Sign up and get customized info on our latest jobs, career tips and Recruitment events that matter to you.
+  
+  
+Expand your limits and create a new future together at RBC. Find out how we use our passion and drive to enhance the well-being of our clients and communities at jobs.rbc.com</a/span>
+  
+  
+RBC is presently inviting candidates to apply for this existing vacancy. Applying to this posting allows you to express your interest in this current career opportunity at RBC. Qualified applicants may be contacted to review their resume in more detail.",
 7,,Project Manager (Data Center Delivery & Liquid Cooling),Astreya Partners,Hybrid,"Dubai, DU, United Arab Emirates",fulltime,data center,Verified,delivery,manager,indeed,2026-11-05,https://ae.indeed.com/viewjob?jk=4290cc7768cb09d8,"**About the role**
 
 Astreya is a global consulting firm with entrepreneurial, action and results-oriented professionals. We take a hands-on approach to solving our clients' problems and assisting them in reaching their potential. Our culture celebrates independent thinkers and doers who positively impact our clients and shape our industry. The collaborative environment and engaging work, guided by Astreya's core values of Integrity, Quality, Objectivity, Fun, Personal Reward, and Inclusive Diversity, are why our people love working at Astreya.
@@ -2138,7 +2310,7 @@ Collaborate with third-party vendors to ensure external support for network secu
 * In-depth knowledge of information security systems.
 * Good communication & interpersonal skills.
 * Good analytical skills.",
-6,,Senior Site Reliability / Gitops Engineer,Canonical,Onsite,"Doha, Qatar",fulltime,Software Development,Verified,operations,mid-senior level,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4487873075,"Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.
+6,,Senior Site Reliability / Gitops Engineer,Canonical,Onsite,"Doha, Qatar | Riyadh, Riyadh, Saudi Arabia",fulltime,Software Development,Verified,operations,mid-senior level,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4487873075,"Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.
   
   
 The company is founder-led, profitable, and growing.
@@ -2218,18 +2390,22 @@ We consider geographical location, experience, and performance in shaping compen
 Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004. Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.
   
   
-We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.",
-6,,Infrastructure Engineering Manager,Unifonic,Onsite,"الرياض, S01, Saudi Arabia",fulltime,telecom,Verified,operations,manager,indeed,2026-11-11,https://sa.indeed.com/viewjob?jk=16ac26fa59633185,"Proudly voted a Great Place to Work®, we are a dynamic startup in the CPaaS (Communication Platform as a Service) space that is revolutionizing the way businesses communicate. Our team is made up of 400+ energetic and passionate Unifones who are dedicated to delivering the best possible experience to 5000+ customer-centric companies.
-
+We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.",https://www.linkedin.com/jobs/view/4487875048
+6,,Infrastructure Engineering Manager,Unifonic,Onsite,"Riyadh, Riyadh, Saudi Arabia | الرياض, S01, Saudi Arabia",fulltime,Information Technology & Services,Verified,operations,mid-senior level,"linkedin, indeed",2026-11-11,https://www.linkedin.com/jobs/view/4489928577,"**Job Description**
+Proudly voted a Great Place to Work®, we are a dynamic startup in the CPaaS (Communication Platform as a Service) space that is revolutionizing the way businesses communicate. Our team is made up of 400+ energetic and passionate Unifones who are dedicated to delivering the best possible experience to 5000+ customer-centric companies.
+  
+  
 We pride ourselves on our fun and collaborative work environment, where creativity and new ideas are constantly encouraged. As shareholders in the business, we’re so much more than a group of passionate communicators. We are Unifones. Join our team and be a part of something big!
-
+  
+  
 **Meet the team!**
-
 Our Engineering team is responsible for designing, developing, and maintaining the systems and technologies that drive Unifonic’s solutions. We work closely with other departments to ensure our products and services meet the needs of our customers. If you are passionate about technology and are excited about working on cutting-edge communication and engagement solutions, we want you on our team.
-
+  
+  
 As an Infrastructure Engineering Manager at Unifonic, you will lead the engineering and operations of production cloud platforms, combining Infrastructure Engineering, Site Reliability Engineering (SRE), Cloud Platform Engineering, and AI-native engineering to ensure reliability, scalability, security, performance, and automation. You will remain hands-on by reviewing infrastructure code and architecture, troubleshooting complex production issues, working with Kubernetes and cloud services, and using AI engineering tools such as Claude Code daily. You will focus on Google Cloud Platform (GCP) and Oracle Cloud Infrastructure (OCI), with strong practical GCP expertise to support the ongoing migration to GCP, while collaborating with the Infrastructure Engineering Manager – Developer Experience, who is responsible for non-production environments, CI/CD, and developer tooling.
-
-**Help us shape the future of communication by:**
+  
+  
+**Help Us Shape The Future Of Communication By**
 
 * Owning the architecture, engineering, operation, and continuous improvement of production infrastructure across GCP and OCI.
 * Taking a leading technical role in migrating production workloads to GCP.
@@ -2264,6 +2440,8 @@ As an Infrastructure Engineering Manager at Unifonic, you will lead the engineer
 * Making sure AI is used safely around production systems, credentials and sensitive operational data.
 
 Oversee critical production platform and backing services, including their lifecycle, standardisation, automation, availability, security, backup and disaster recovery:
+  
+  
 
 * Databases and data infrastructure (for example MySQL, PostgreSQL)
 * Caching (for example Redis)
@@ -2287,6 +2465,7 @@ Oversee critical production platform and backing services, including their lifec
 * Partner with Product Engineering, Security and other teams on production platform strategy.
 * Set clear engineering standards and keep documentation and knowledge sharing strong.
 
+**Job Requirements**
 **What you’ll bring:**
 
 * 10+ years of experience across Infrastructure, Cloud, Platform Engineering, DevOps, or SRE.
@@ -2321,7 +2500,7 @@ Oversee critical production platform and backing services, including their lifec
 * GCP Professional certifications, such as Professional Cloud Architect or Professional Cloud DevOps Engineer.
 * Experience in telecommunications, CPaaS (Communications Platform as a Service), or messaging environments.
 
-**Character Traits:**
+**Character Traits**
 
 * Analytical thinking and problem-solving – approach problems clearly, use data, and find solutions.
 * Ownership and accountability – take responsibility and follow projects through to completion.
@@ -2340,7 +2519,7 @@ Oversee critical production platform and backing services, including their lifec
 * 30 holiday days after the first anniversary
 * Your Birthday off!
 * Spend up to 25 days per year working from anywhere in the world!
-* Paid leave for new parents",
+* Paid leave for new parents",https://sa.indeed.com/viewjob?jk=16ac26fa59633185
 6,,Senior Service Delivery Manager,Mitel,Onsite,"Newark, NJ, USA",fulltime,Telecommunications,Verified,delivery,mid-senior level,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4480668460,"At Mitel, you will have the opportunity to help businesses connect, collaborate and provide better experiences for our customers. You will deliver valuable contributions in creating business success within our global organization utilizing your unique attributes, skills and experience.
   
   
@@ -2429,6 +2608,40 @@ is a leadership role responsible for the strategic direction, operational excell
 
 * At this time, the organization cannot sponsor applicants for work visas.
 * The organization is dedicated to building a diverse, inclusive, and authentic workplace; candidates whose background does not align perfectly with every qualification are encouraged to apply.",
+6,,Technical Customer Operations Manager,CyrusOne,Onsite,"Sterling, VA, USA",fulltime,Data Infrastructure and Analytics,Verified,operations,mid-senior level,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4471930463,"The Technical Customer Operations Manager will play a critical role in ensuring operational alignment and clear communication between our company and our hyperscale customers. This individual will work closely with internal data center operations and engineering teams and customer stakeholders to manage technical requirements, resolve operational issues, and drive continuous improvement. The ideal candidate will have a strong background in data center operations, customer relationship management, and technical problem-solving including familiarity with building automation systems, technical schematics, and root cause analysis process.
+  
+  
+**What You Will Do**
+
+* Customer Liaison: Act as the primary operational point of contact between internal teams and the customer’s operations teams, managing day-to-day technical inquiries and fostering strong customer relationships.
+* Operational Alignment: Collaborate with internal operations teams to ensure that the customer’s operational requirements are understood and implemented effectively, including responding to incidents, planned works, and maintenance schedules.
+* Technical Issue Resolution: Manage and coordinate the resolution of technical and operational issues in collaboration with engineering and technical teams, ensuring timely communication and resolution for the customer.
+* Performance Monitoring & Reporting: Track, analyze, and report on the performance of data center operations against customer Service Level Agreements (SLAs) and key performance indicators (KPIs). Present regular updates to both internal leadership and customer stakeholders.
+* Incident Management: Oversee and manage incidents, ensuring proper escalation, communication, and resolution with the customer. Provide post-incident reviews and improvements to both internal and customer operations.
+* Capacity Planning & Change Management: Work with the customer to understand future capacity and operational needs, driving internal coordination for smooth change management processes.
+* Customer Engagement & Satisfaction: Proactively engage with customer operations teams to gather feedback, identify opportunities for improvement, and ensure overall satisfaction with our data center operations.
+* Project Coordination: Support project-based initiatives such as new site developments, capacity expansions, or technical upgrades, serving as the customer’s advocate within internal project teams.
+* Documentation & Compliance: Ensure that all customer-facing documentation, including operational playbooks, technical procedures, and incident reports, is up to date and aligns with both internal and customer expectations.
+
+**What We Are Looking For**
+
+* Minimum 5+ years of experience in data center operations or technical customer-facing roles, preferably within the data center or technology industries.
+* Bachelor’s degree in Engineering, Information Technology, or a related field; or equivalent industry experience.
+* Experience interfacing with hyperscale customers or large-scale enterprise customers in a technical capacity.
+* Proven experience managing incidents, escalations, and operational communications between technical teams and customers.
+* Strong understanding of data center infrastructure (mechanical, electrical, and critical systems).
+* Excellent communication skills with the ability to translate complex technical concepts into clear, actionable communication for customers.
+* Ability to manage multiple priorities in a fast-paced environment while maintaining attention to detail.
+* Proven problem-solving and decision-making skills, particularly under time-sensitive circumstances.
+* Familiarity with incident management tools and methodologies (e.g., ITIL) is a plus.
+* Strong customer relationship management skills and a proactive, solutions-oriented approach.
+* Experience with hyperscale data center environments preferred
+* Knowledge of cloud infrastructure and associated customer technologies preferred
+
+CyrusOne is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, sexual orientation, gender identity, religion, national origin, disability, veteran status, or other legally protected status.
+  
+  
+CyrusOne provides reasonable accommodation for qualified individuals with disabilities in accordance with the Americans with Disabilities Act (ADA) and any other state or local laws. We will respond to requests for reasonable accommodations to assist you in applying for positions at CyrusOne, or to submit a resume.",
 6,,Network Operations Manager,Vanguard University of Southern California,Onsite,"Costa Mesa, CA, USA",fulltime,Higher Education,Verified,operations,associate,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4477037007,"**Vanguard University**
 **Position Summary**
 The Network Operations Manager provides leadership in network operations, configuration management, and troubleshooting to ensure the delivery of high-quality services across all network-related functions. This role oversees the network operations team and is responsible for the performance, reliability, and support of the campus LAN/WAN environment. Responsibilities include supervising technical support staff, fostering their professional development, and ensuring effective training and team growth. In addition, this position manages network administration, software licensing management, and related research and development initiatives. The role collaborates closely with the Sr. Director of Information Technology by developing and recommending policies and strategies pertaining to network infrastructure and services. The ideal candidate is a collaborative and adaptable leader who brings strong problem-solving skills, creativity, and a commitment to continuous improvement. This position reports directly to the Sr. Director of Information Technology.
@@ -2912,6 +3125,63 @@ Marsh is committed to hybrid work, which includes the flexibility of working rem
   
   
 **R\_361866**",https://www.linkedin.com/jobs/view/4481797396
+6,,AWS Cloud Infrastructure and Operations Delivery Manager,PwC,Onsite,"Dallas, TX, USA",fulltime,"Accounting, Financial Services, and Business Consulting and Services",Verified,operations,mid-senior level,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4473934234,"The Opportunity
+  
+  
+As a Cloud Infrastructure and Operations Delivery Manager you will oversee client-facing cloud infrastructure and operations work within our Advisory practice, focusing on Amazon Web Services delivery, platform support, and network architecture. As a Manager you will lead teams, coach junior professionals, and drive assigned workstreams by balancing project planning, delivery timelines, and quality expectations while applying sound judgment across complex client needs. In this role at PwC, you will guide cloud infrastructure, operations, and service management efforts, coordinate issue resolution, and help shape reliable AWS-based solutions that support client objectives.
+  
+  
+In this role, you will collaborate with multidisciplinary teams to deliver scalable and secure technology platforms. You will be responsible for analyzing complex problems, developing high-quality deliverables, and cultivating meaningful client relationships. By embracing technology and innovation, you will enhance your delivery and encourage others to do the same, contributing to the success of our firm.
+  
+  
+**Responsibilities**
+
+* Leading cloud infrastructure and operations delivery workstreams for AWS-based client environments
+* Managing project planning, budgeting, execution, and timeline tracking across infrastructure initiatives
+* Guiding teams through cloud architecture design, network deployment, migration, and modernization activities
+* Reviewing technical deliverables for cloud infrastructure, virtualization, connectivity, and security controls
+* Coordinating incident resolution, root-cause analysis, and operational troubleshooting across cloud and network platforms
+* Validating service management processes, operational readiness, and support procedures for client environments
+* Mentoring junior team members and using work review sessions to build technical depth and delivery skills
+* Identifying opportunities to improve cloud operations through automation, digital tooling, and AI-enabled workflows
+* Building client relationships and communicating technical options, risks, and delivery status to stakeholders
+
+What You Must Have
+  
+  
+
+* At least a Bachelor's degree
+* At least 5 years of experience in cloud infrastructure delivery, including 2 or more years leading AWS work at enterprise scale
+
+What Sets You Apart
+  
+  
+
+* Preference for at least one of the following fields of study: Computer Science, Information Technology, Information Systems, Engineering
+* At least one of the following: AWS Certified Solutions Architect Professional or AWS Certified DevOps Engineer Professional preferred; PMP, PMI-ACP, or Certified ScrumMaster
+* Master's of Science or an MBA is preferred
+* Executing AWS partner motions, including Migration Acceleration Program (MAP) funding, proofs of concept, co-sell activities, and AWS Marketplace private offers
+* Delivering cloud transformation initiatives within industry environments
+* Demonstrating AWS cloud infrastructure delivery across client engagements
+* Leading teams through project planning, execution, and delivery
+* Coaching junior professionals and reviewing deliverables for quality
+
+The salary range for this position is: $99,000 - $232,000. Actual compensation within the range will be dependent upon the individual's skills, experience, qualifications and location, and applicable employment laws. All hired individuals are eligible for an annual discretionary bonus. PwC offers a wide range of benefits, including medical, dental, vision, 401k, holiday pay, vacation, personal and family sick leave, and more. To view our benefits at a glance, please visit the following link: https://pwc.to/benefits-at-a-glance
+  
+  
+As PwC is an equal opportunity employer, all qualified applicants will receive consideration for employment at PwC without regard to race; color; religion; national origin; sex (including pregnancy, sexual orientation, and gender identity); age; disability; genetic information (including family medical history); veteran, marital, or citizenship status; or, any other status protected by law.
+  
+  
+PwC does not intend to hire experienced or entry level job seekers who will need, now or in the future, PwC sponsorship through the H-1B lottery, except as set forth within the following policy: https://pwc.to/H-1B-Lottery-Policy.
+  
+  
+Learn more about how we work: https://pwc.to/how-we-work
+  
+  
+For only those qualified applicants that are impacted by the Los Angeles County Fair Chance Ordinance for Employers, the Los Angeles' Fair Chance Initiative for Hiring Ordinance, the San Francisco Fair Chance Ordinance, San Diego County Fair Chance Ordinance, and the California Fair Chance Act, where applicable, arrest or conviction records will be considered for Employment in accordance with these laws. At PwC, we recognize that conviction records may have a direct, adverse, and negative relationship to responsibilities such as accessing sensitive company or customer information, handling proprietary assets, or collaborating closely with team members. We evaluate these factors thoughtfully to establish a secure and trusted workplace for all.
+  
+  
+Applications will be accepted until the position is filled or the posting is removed, unless otherwise set forth on the following webpage. Please visit this link for information about anticipated application deadlines: https://pwc.to/us-application-deadlines",
 6,,Service Delivery Manager,Ensono,Remote,"Remote, USA",fulltime,networking,Verified,delivery,manager,indeed,2026-11-11,https://www.indeed.com/viewjob?jk=8430a333e7a29959,"At Ensono, our Purpose is to be a relentless ally, disrupting the status quo and unleashing our clients to Do Great Things! We enable our clients to achieve key business outcomes that reshape how our world runs. As an expert technology adviser and managed service provider with cross-platform certifications, Ensono empowers our clients to keep up with continuous change and embrace innovation.
 
 We can Do Great Things because we have great Associates. The Ensono Core Values unify our diverse talents and are woven into how we do business. These five traits are the key to achieving our purpose:
@@ -3184,6 +3454,81 @@ o **Critical Operational Periods**
 Pay: $155,000.00 - $165,000.00 per year
 
 Work Location: Hybrid remote in Los Angeles, CA 90041",
+6,,Strategic Account Manager - Data Center,Convergint,Onsite,"Dubai, DU, United Arab Emirates",fulltime,Consulting And Business Services,Verified,operations,manager,indeed,2026-11-10,https://ae.indeed.com/viewjob?jk=4e2e9a70ebe092af,"**Build a career where values meet worldwide opportunity.**
+
+Job Description: Job Purpose  
+As a Strategic Account Manager, you will lead business development, account management, and solution delivery for key enterprise clients. This role focuses on building long-term strategic partnerships, identifying growth opportunities, and delivering innovative security technologies, managed services, and global solutions across complex, mission-critical environments. You will act as a trusted advisor to senior stakeholders, driving revenue growth and supporting the organization’s vision to be an industry leader.  
+  
+What you’ll do with “Our Training and Your Experience”  
+  
+Strategic Account & Business Development  
+Identify, qualify, and develop strategic business opportunities within the data center sector.  
+Build and maintain executive-level relationships with senior decision-makers, influencers, and technical stakeholders.  
+Develop account plans and long-term growth strategies aligned with Convergint’s GCDC vertical goals.  
+Act as a trusted advisor by providing insights, identifying risks, and delivering proactive recommendations.  
+  
+Revenue Growth & Pipeline Management  
+Achieve or exceed annual sales targets for security technologies, managed services, and professional services.  
+Maintain a strong and accurate sales pipeline using CRM tools.  
+Lead sales cycles from opportunity discovery through solution delivery and post-deployment support.  
+Track forecasts, performance metrics, and customer feedback.  
+  
+Solution Selling & Delivery  
+Analyze customer environments and propose customized, high-value Convergint solutions.  
+Collaborate with engineering, operations, finance, and legal teams to design and deliver complex solutions.  
+Influence customer strategies related to data center security and integrated technologies.  
+Ensure feasibility, pricing accuracy, and proposal development for solutions including access control, CCTV, intrusion detection, life safety systems, and managed services.  
+  
+Global Collaboration & Industry Leadership  
+Coordinate with regional and global Convergint teams to ensure seamless delivery of multi-site projects.  
+Serve as a key point of contact for global clients expanding within the region.  
+Stay current on data center market trends and emerging security technologies.  
+Represent Convergint at industry events, webinars, and client engagements.  
+Promote Convergint’s values, culture, and GCDC vertical strategy in all interactions.  
+  
+Key Relationships  
+Internal: Managing Director, Director of Regional Account, Director of Global Account, Project Managers, Managed Service Teams, Finance , HR, Administration, Marketing  
+External: Clients, Vendors, Industry Stakeholders.  
+  
+Job Dimensions  
+Direct Reports: None
+  
+Geographical Scope: Primarily UAE, KSA, Iraq, South Africa with expansion opportunities across MEA  
+  
+What You’ll Need  
+  
+Strategic and Commercial Acumen  
+Client Relationship Management  
+Operational and Financial Excellence  
+Negotiation and Contract Management  
+Decision-Making and Problem-Solving  
+Communication and Stakeholder Engagement  
+Inspirational and ethical leader with a growth mindset.  
+Excellent time management and organizational skills.  
+Results-oriented with strong attention to quality and profitability.  
+Collaborative and culturally aware; able to build strong internal and external partnerships.  
+  
+Company Benefits  
+Convergint fosters a supportive, accessible, and inclusive environment in which all individuals are able to realize their maximum potential within the company. We offer a variety of programs and exceptional benefits:  
+National Holidays and Paid Time Off starting at 22 days annually  
+2 Festive Days Off  
+Medical Plan
+  
+Competitive salary and compensation plan  
+Corporate Social Responsibility Day  
+Vehicle reimbursement plan or company vehicle (if applicable)  
+Cell phone reimbursement (if applicable)  
+  
+Requirements:  
+  
+Bachelor’s degree in Business, Engineering, or related field (MBA preferred).  
+7–10 years of B2B sales experience in technology or security solutions.  
+Strong consultative selling, negotiation, and stakeholder management skills.  
+Experience managing complex sales cycles and enterprise accounts.  
+Proficiency in CRM tools and Microsoft Office.  
+Collaborative, results-driven, and adaptable in fast-paced environments
+
+Convergint is an Equal Opportunity Employer.",
 6,,Infrastructure Lead,GMG,Hybrid,"Dubai, United Arab Emirates",fulltime,Retail,Verified,project,mid-senior level,linkedin,2026-11-10,https://www.linkedin.com/jobs/view/4487468660,"**Role Summary:**
 
 The Tech Lead – Windows Infrastructure, Cloud & Virtualization is a senior-level position responsible for leading the design, deployment, and management of complex Windows-based infrastructure, cloud solutions, and virtualization technologies, with a strong focus on O365 Administration. Managing Windows Server, Azure Cloud, VMware, backup solutions, and O365, ensuring seamless integration of on-premises and cloud environments. This position involves overseeing enterprise systems, optimizing performance, and ensuring scalability, security, and high availability. The Tech Lead will also mentor junior engineers, manage large-scale projects, and work collaboratively with cross-functional teams to deliver robust IT infrastructure solutions aligned with organizational goals. Strong troubleshooting, leadership, and strategic planning skills are essential for success in this role.
@@ -3265,81 +3610,6 @@ The incumbent is responsible for setting clear objectives and performance target
 - 15–20 years of experience in IT infrastructure management, with deep expertise in Windows Server, O365 Administration, Azure Cloud, VMware, Nutanix and related technologies.
 
 - Extensive experience leading large-scale infrastructure projects and managing cross-functional teams.",
-6,,Strategic Account Manager - Data Center,Convergint,Onsite,"Dubai, DU, United Arab Emirates",fulltime,Consulting And Business Services,Verified,operations,manager,indeed,2026-11-10,https://ae.indeed.com/viewjob?jk=4e2e9a70ebe092af,"**Build a career where values meet worldwide opportunity.**
-
-Job Description: Job Purpose  
-As a Strategic Account Manager, you will lead business development, account management, and solution delivery for key enterprise clients. This role focuses on building long-term strategic partnerships, identifying growth opportunities, and delivering innovative security technologies, managed services, and global solutions across complex, mission-critical environments. You will act as a trusted advisor to senior stakeholders, driving revenue growth and supporting the organization’s vision to be an industry leader.  
-  
-What you’ll do with “Our Training and Your Experience”  
-  
-Strategic Account & Business Development  
-Identify, qualify, and develop strategic business opportunities within the data center sector.  
-Build and maintain executive-level relationships with senior decision-makers, influencers, and technical stakeholders.  
-Develop account plans and long-term growth strategies aligned with Convergint’s GCDC vertical goals.  
-Act as a trusted advisor by providing insights, identifying risks, and delivering proactive recommendations.  
-  
-Revenue Growth & Pipeline Management  
-Achieve or exceed annual sales targets for security technologies, managed services, and professional services.  
-Maintain a strong and accurate sales pipeline using CRM tools.  
-Lead sales cycles from opportunity discovery through solution delivery and post-deployment support.  
-Track forecasts, performance metrics, and customer feedback.  
-  
-Solution Selling & Delivery  
-Analyze customer environments and propose customized, high-value Convergint solutions.  
-Collaborate with engineering, operations, finance, and legal teams to design and deliver complex solutions.  
-Influence customer strategies related to data center security and integrated technologies.  
-Ensure feasibility, pricing accuracy, and proposal development for solutions including access control, CCTV, intrusion detection, life safety systems, and managed services.  
-  
-Global Collaboration & Industry Leadership  
-Coordinate with regional and global Convergint teams to ensure seamless delivery of multi-site projects.  
-Serve as a key point of contact for global clients expanding within the region.  
-Stay current on data center market trends and emerging security technologies.  
-Represent Convergint at industry events, webinars, and client engagements.  
-Promote Convergint’s values, culture, and GCDC vertical strategy in all interactions.  
-  
-Key Relationships  
-Internal: Managing Director, Director of Regional Account, Director of Global Account, Project Managers, Managed Service Teams, Finance , HR, Administration, Marketing  
-External: Clients, Vendors, Industry Stakeholders.  
-  
-Job Dimensions  
-Direct Reports: None
-  
-Geographical Scope: Primarily UAE, KSA, Iraq, South Africa with expansion opportunities across MEA  
-  
-What You’ll Need  
-  
-Strategic and Commercial Acumen  
-Client Relationship Management  
-Operational and Financial Excellence  
-Negotiation and Contract Management  
-Decision-Making and Problem-Solving  
-Communication and Stakeholder Engagement  
-Inspirational and ethical leader with a growth mindset.  
-Excellent time management and organizational skills.  
-Results-oriented with strong attention to quality and profitability.  
-Collaborative and culturally aware; able to build strong internal and external partnerships.  
-  
-Company Benefits  
-Convergint fosters a supportive, accessible, and inclusive environment in which all individuals are able to realize their maximum potential within the company. We offer a variety of programs and exceptional benefits:  
-National Holidays and Paid Time Off starting at 22 days annually  
-2 Festive Days Off  
-Medical Plan
-  
-Competitive salary and compensation plan  
-Corporate Social Responsibility Day  
-Vehicle reimbursement plan or company vehicle (if applicable)  
-Cell phone reimbursement (if applicable)  
-  
-Requirements:  
-  
-Bachelor’s degree in Business, Engineering, or related field (MBA preferred).  
-7–10 years of B2B sales experience in technology or security solutions.  
-Strong consultative selling, negotiation, and stakeholder management skills.  
-Experience managing complex sales cycles and enterprise accounts.  
-Proficiency in CRM tools and Microsoft Office.  
-Collaborative, results-driven, and adaptable in fast-paced environments
-
-Convergint is an Equal Opportunity Employer.",
 6,,Network Security Associate Manager,Accenture Middle East,Onsite,"Riyadh, Riyadh, Saudi Arabia",fulltime,Security and Investigations,Verified,delivery,mid-senior level,linkedin,2026-11-10,https://www.linkedin.com/jobs/view/4488396653,"We are looking for an experienced
 **Network Security Associate Manager**
 with strong hands-on technical expertise in multi-vendor network security technologies, enterprise security architecture, and team leadership. The candidate will be responsible for managing, troubleshooting, optimizing, and enhancing network security infrastructure while ensuring high availability and business continuity.
@@ -5370,207 +5640,6 @@ Find out more about what it's like to work at Cerebras
 *This website or its third-party tools process personal data. For more details, click*
 *here*
 *to review our CCPA disclosure notice.*",
-6,,Senior Manager - Reefer Fleet Reliability & Technical Support,Charger Logistics Inc.,Remote,"Brampton, Ontario, Canada",fulltime,Truck Transportation,Verified,operations,not applicable,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4488432705,"**Senior Manager — Reefer Fleet Reliability & Technical Support**
-**Company:**
-Charger Logistics Inc.
-  
-  
-**Locations:**
-Brampton / Greater Toronto Area, Ontario; Dallas-Fort Worth, Texas; or Querétaro, Mexico
-  
-  
-**Employment:**
-Full-time | Senior technical leadership
-  
-  
-**Coverage:**
-North American operations — Canada, United States and Mexico
-  
-  
-**About the Role**
-Charger Logistics is seeking a highly experienced transport refrigeration professional to lead technical troubleshooting, equipment reliability and breakdown escalation across our North American refrigerated trailer operations.
-  
-  
-We are looking for someone who began their career working hands-on with refrigerated trailers and developed into a trusted technical expert capable of solving complex equipment failures, coaching maintenance teams and supporting business operations.
-  
-  
-This is not a traditional administrative maintenance management position.
-  
-  
-The successful candidate must have substantial hands-on experience with Thermo King and/or Carrier Transicold equipment, combined with the communication, leadership and judgment required to resolve critical situations involving customers, drivers, dispatchers, technicians and external service providers.
-  
-  
-**The objective is simple: maximize refrigerated trailer reliability, prevent cargo losses, reduce equipment downtime and develop stronger technical capabilities throughout Charger Logistics.**
-**Key Responsibilities**
-**1. Advanced Technical Troubleshooting**
-Serve as the senior technical escalation point for difficult reefer equipment failures and recurring problems.
-  
-Diagnose refrigeration, mechanical, electrical, diesel-engine and electronic-control issues.
-  
-Interpret Thermo King and Carrier fault codes, alarm histories, temperature data and diagnostic reports.
-  
-Provide remote technical guidance to breakdown coordinators, drivers and mechanics.
-  
-Determine whether equipment can safely continue operating, requires immediate service or must be removed from service.
-  
-Identify root causes and implement permanent corrective actions to prevent repeat breakdowns.
-  
-  
-**2. Breakdown Management & Cargo Protection**
-Provide technical leadership during critical roadside breakdowns and temperature-control incidents.
-  
-Work with dispatch and breakdown teams to identify appropriate repair locations and qualified service providers.
-  
-Help prioritize repairs according to cargo sensitivity, customer requirements, severity of failure and equipment condition.
-  
-Coordinate technical recovery plans, including service, trailer substitution or cross-docking where necessary.
-  
-Support timely resolution of escalated equipment issues across Canada, the United States and Mexico.
-  
-Ensure any changes affecting cargo temperature requirements are properly authorized and documented.
-  
-  
-**3. Technical Coaching & Team Development**
-Act as a mentor and technical resource for reefer mechanics, trailer technicians, terminal maintenance teams and breakdown personnel.
-  
-Create practical troubleshooting procedures for common Thermo King and Carrier failures.
-  
-Train teams on refrigeration diagnostics, electrical controls, fuel-system procedures, preventive maintenance and equipment operation.
-  
-Identify technical skill gaps and coordinate manufacturer training and certifications.
-  
-Develop standardized repair processes and knowledge-sharing procedures across terminals.
-  
-Help technicians become more independent in diagnosing and resolving failures.
-  
-  
-**4. Preventive Maintenance & Fleet Reliability**
-Review recurring breakdowns and identify systemic equipment problems.
-  
-Improve preventive and condition-based maintenance programs for refrigeration equipment.
-  
-Analyze maintenance records, engine hours, telematics data and fault trends.
-  
-Develop inspection standards and corrective maintenance recommendations.
-  
-Work with maintenance leadership to improve parts availability, repair quality and vendor performance.
-  
-Advise on equipment reliability, major repair-versus-replace decisions, warranty issues and long-term maintenance strategy.
-  
-  
-**5. OEM & External Service Provider Management**
-Establish strong working relationships with Thermo King, Carrier Transicold and authorized service providers.
-  
-Escalate difficult technical problems to manufacturers and specialized repair partners.
-  
-Evaluate repair recommendations, service quality, warranty eligibility, quotations and major repair costs.
-  
-Coordinate technical training and exchange best practices with OEM partners.
-  
-Build a reliable cross-border service network for emergencies and specialized repairs.
-  
-  
-**6. Business & Customer Coordination**
-Work closely with operations, dispatch, account management, customer service and senior leadership.
-  
-Translate complex technical issues into clear operational recommendations.
-  
-Support incident investigations involving temperature excursions, equipment failures and potential cargo claims.
-  
-Assist with customer-facing technical explanations and corrective-action reports.
-  
-Provide clear updates on critical incidents, expected repair outcomes and recurring operational risks.
-  
-Take ownership of technical problem-solving through resolution, while maintaining proper communication and accountability.
-  
-  
-**Qualifications & Experience**
-**Required**
-8-12+ years of relevant experience in transport refrigeration, including significant hands-on equipment repair experience.
-  
-Advanced knowledge of Thermo King and/or Carrier Transicold refrigeration systems.
-  
-Proven experience diagnosing complicated refrigeration, diesel, electrical and control-system failures.
-  
-Experience with refrigerated trailers and commercial temperature-controlled transportation.
-  
-Previous experience as a senior technician, master technician, technical supervisor, workshop supervisor or technical service manager.
-  
-Ability to guide and train technicians with different levels of experience.
-  
-Strong communication skills and the ability to work with both technical personnel and business stakeholders.
-  
-Experience coordinating with repair vendors and manufacturer service networks.
-  
-Sound operational judgment under pressure, particularly during temperature-sensitive cargo incidents.
-  
-Comfortable using diagnostic software, telematics systems, maintenance records and fleet management applications.
-  
-  
-**Preferred**
-Thermo King or Carrier manufacturer training and advanced technical certifications.
-  
-Previous experience managing refrigerated equipment across multiple terminals.
-  
-Experience supporting large asset-based trucking or refrigerated transportation companies.
-  
-Experience with manufacturer warranty programs and root-cause failure investigations.
-  
-Knowledge of reefer telematics and remote equipment monitoring.
-  
-Applicable professional or refrigerant-handling certifications.
-  
-Bilingual English/Spanish capabilities, particularly for candidates supporting Mexico and cross-border operations.
-  
-  
-Formal engineering education is welcome but is not mandatory where the candidate has demonstrated exceptional technical experience.
-  
-  
-**Success Measures**
-Performance will be evaluated based on:
-  
-  
-Reduction in repeat refrigeration breakdowns.
-  
-Improvement in refrigerated trailer availability and reliability.
-  
-Faster technical diagnosis and resolution of critical incidents.
-  
-Reduction in avoidable cargo-loss incidents.
-  
-Improved repair quality and reduced unnecessary maintenance expense.
-  
-Documented root-cause analysis and corrective actions.
-  
-Growth in internal technician competency and independent troubleshooting capability.
-  
-Stronger vendor performance and OEM support.
-  
-Improved communication between maintenance, breakdown operations and business stakeholders.
-  
-  
-**Working Model**
-The role will be based in one of Charger's North American operating locations, with regular collaboration across Canadian, U.S. and Mexican terminals.
-  
-  
-The successful candidate should be willing to travel periodically to terminals, maintenance facilities and manufacturer locations.
-  
-  
-The position participates in a structured critical-incident escalation rotation. The objective is to build a reliable technical-support function rather than depend on one person being available continuously.
-  
-  
-**Ideal Candidate**
-Our ideal candidate is someone who spent years repairing refrigerated trailers, became the person other mechanics call when they cannot solve a problem, and now wants to apply that expertise at a larger operational level.
-  
-  
-They are technically exceptional, practical, patient when coaching others, commercially aware and comfortable communicating with senior management and customers.
-
-The candidate will be looking over North American operations, including Canada, the United States, and Mexico.
-
-Salary will be determined based on experience and qualifications.
-  
-  
-**We are looking for a hands-on technical leader who can solve today's breakdowns while building the systems and capabilities that prevent tomorrow's.**",
 6,,AWS CloudOps Manager (1899) $150K,Direct IT Recruiting Inc.,Hybrid,"Mississauga, Ontario, Canada",fulltime,IT Services and IT Consulting,Verified,operations,mid-senior level,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4487339536,"**Compensation:**
 $150K base salary + 10% annual bonus
 
@@ -6519,157 +6588,6 @@ Our inclusive culture empowers Amazonians to deliver the best results for our cu
   
   
 Job ID: A10597535",
-6,,OSP Manager,Insight Global,Onsite,"Concord, Ontario, Canada",fulltime,Business Consulting and Services,Verified,project,mid-senior level,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4486765345,"**Title:**
-OSP Manager
-
-**Worksite:**
-Concord, ON, Canada
-
-**Salary**
-$120K with 10% bonus
-
-**Length:**
-Perm
-
-**Required Skills & Experience**
-
-- 5+ years of experience in OSP, fiber construction, telecommunications construction, or FTTH deployment.
-
-- Previous experience managing OSP projects from pre-construction through final closeout strongly preferred.
-
-- Strong understanding of underground and aerial telecommunications construction.
-
-- Experience managing multiple field crews and subcontractors.
-
-- Understanding of fiber design, construction drawings, splice plans, as-builts, and construction documentation.
-
-- Familiarity with permitting, utility coordination, locates, right-of-way requirements, and municipal construction requirements.
-
-- Strong understanding of project budgets, unit-based production, change orders, forecasting, and cost control.
-
-- Ability to read and interpret OSP construction drawings and engineering packages.
-
-- Strong organizational and communication skills with the ability to manage several projects simultaneously.
-
-- Demonstrated ability to work directly with telecom carriers, engineering teams, municipalities, subcontractors, and field personnel.
-
-- Valid driver’s license and ability to travel to project locations as required.
-
-**Job Description**
-
-We are seeking an experienced OSP Manager to lead large-scale Fiber-to-the-Home (FTTH) and Outside Plant (OSP) telecommunications projects from initial bid through final construction and closeout.
-
-This individual will have full ownership of assigned projects, managing the complete lifecycle including estimating, bid review, design coordination, permitting, utility coordination, construction execution, subcontractor management, financial performance, quality, client communication, and project closeout.
-
-The ideal candidate has a strong understanding of fiber infrastructure and outside plant construction and is comfortable managing multiple projects, crews, subcontractors, municipalities, and customer requirements simultaneously. This role requires someone who can see the entire project, anticipate issues before they affect the schedule, and drive projects to successful completion.
-
-**Key Responsibilities**
-
-Estimating & Pre-Construction
-
-• Manage OSP/FTTH projects beginning at the bid and pre-construction stage.
-
-• Review RFPs, scopes of work, drawings, specifications, unit pricing, and customer requirements.
-
-• Assist with estimating labor, materials, equipment, subcontractor costs, and overall project requirements.
-
-• Identify constructability concerns, permitting requirements, schedule risks, and potential cost impacts prior to mobilization.
-
-• Develop project budgets, schedules, resource plans, and construction strategies.
-
-OSP Design & Engineering Coordination
-
-• Manage the transition from preliminary design through construction-ready drawings.
-
-• Coordinate with internal and external engineering/design teams.
-
-• Review fiber routes, splice plans, utility conflicts, easement requirements, and construction methods.
-
-• Ensure designs are practical and constructible based on field conditions.
-
-• Manage design changes and field modifications throughout construction.
-
-• Coordinate permitting and approvals with municipalities, utilities, and other authorities having jurisdiction.
-
-**Construction Management**
-
-• Lead day-to-day execution of FTTH and OSP construction projects.
-
-• Manage underground and aerial fiber construction activities, including:
-
-o Directional drilling and boring
-
-o Trenching and excavation
-
-o Conduit and duct installation
-
-o Handholes, vaults, and pedestals
-
-o Fiber pulling and placement
-
-o Aerial strand and fiber installation
-
-o Fiber splicing and testing
-
-o Make-ready activities
-
-o Site and roadway restoration
-
-• Coordinate internal crews, subcontractors, vendors, inspectors, and engineering resources.
-
-• Track production against schedule and established project milestones.
-
-• Resolve field issues involving utilities, municipalities, property owners, design conflicts, and construction conditions.
-
-• Ensure work is completed safely and meets customer specifications and applicable construction standards.
-
-**Project & Financial Management**
-
-• Maintain ownership of project budgets, production, forecasting, and profitability.
-
-• Monitor labor, subcontractor, equipment, and material costs.
-
-• Track completed quantities and ensure accurate production reporting and billing.
-
-• Review subcontractor invoices and validate completed work.
-
-• Manage change orders and additional work outside the original project scope.
-
-• Identify potential schedule or financial risks and develop corrective action plans.
-
-• Provide regular project updates to customer and company leadership.
-
-Client Management
-
-• Serve as a primary point of contact for telecommunications customers throughout the project lifecycle.
-
-• Lead project kickoff meetings, construction meetings, and progress reviews.
-
-• Communicate schedule, production, design changes, permitting issues, and project risks.
-
-• Maintain strong relationships with customer construction, engineering, and project management teams.
-
-• Ensure contractual commitments and customer expectations are met.
-
-**Quality & Project Closeout**
-
-• Ensure construction meets customer, engineering, safety, and quality requirements.
-
-• Coordinate inspections and correction of deficiencies or punch-list items.
-
-• Ensure fiber testing, splicing documentation, redlines, and required construction records are completed.
-
-• Manage development and submission of as-built drawings.
-
-• Ensure all production quantities and billing documentation are reconciled.
-
-• Complete final customer turnover and closeout packages.
-
-• Drive projects through final acceptance and financial closeout.
-
-*Exact compensation may vary based on several factors, including skills, experience, and education.*
-
-*Benefit packages for this role may include healthcare insurance offerings and paid leave as provided by applicable law.*",
 6,,Senior Client Engagement & Service Delivery Manager – Data & Analytics,Fipsar Inc,Onsite,"Hillsborough, NJ, USA",fulltime,IT Services and IT Consulting,Verified,delivery,mid-senior level,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4486768361,"**Location:**
 New Jersey, USA (Onsite – Client Location)
 
@@ -7022,6 +6940,40 @@ USA, WA, Redmond - 148,700.00 - 201,200.00 USD annually
   
   
 Job ID: A10523038",
+6,,Incident Manager,Centraprise,Onsite,"Alpharetta, GA, USA",fulltime,IT Services and IT Consulting,Verified,incident,mid-senior level,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4486920017,"**Incident Manager**
+
+**Alpharetta, GA - (Onsite)**
+
+**Fulltime (Permanent)**
+
+**Experience required:**
+8+ Years
+
+**Job Description:**
+
+Note: Candidate should have strong experience in Incident Manager with
+**AWS**
+experience.
+
+**Key Job Functions:**
+
+* Provide expert-level
+  **incident management**
+  support for response, triage, and impact mitigation of technology incidents.
+* The team serves as the command centre for all critical incidents.
+* The primary objective is to prevent, contain, and minimize the duration of production incidents to reduce business impact.
+* Lead the resolution of high-priority and complex incidents.
+* Prioritize recovery actions to minimize business impact and operational disruption.
+* Utilize all available tools to identify root causes and drive rapid resolution through permanent fixes or workarounds.
+* Troubleshoot incidents and quickly identify root causes using operations analytics, wire data analytics, application performance management, and event correlation monitoring tools.
+* Act as the primary point of contact for management and stakeholders during business-impacting incidents.
+* Partner with the Correction of Errors (COE) team to drive
+  **root cause analysis**
+  , lessons learned, and implementation of enhancements for all major incidents.
+* Collaborate with cross-functional teams to enhance proactive monitoring, observability tools, and operational processes.
+* Provide reporting and analysis on incident trends and business impacts, including metrics such as MTTR (Mean Time to Resolution) and MTTD (Mean Time to Detect).
+* Provide enhancement recommendations based on incident trends and present findings to management for prioritization and implementation. Lead approved improvement initiatives.
+* Ensure appropriate functional and management escalation occurs according to established standards and procedures.",
 6,,Service Delivery Manager - IT Infrastructure and Cloud Managed Services,Unisys,Onsite,"Pennsylvania, USA",fulltime,IT Services and IT Consulting,Verified,delivery,mid-senior level,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4488054395,"**Position Overview**
 **What success looks like in this role:**
 
@@ -7465,206 +7417,6 @@ When you apply, we will review your application using Deloitte's Global Talent S
   
   
 Deloitte Canada has 20 offices with representation across most of the country. We acknowledge that Deloitte offices stand on traditional, treaty, and unceded territories in what is now known as Canada. We recognize that Indigenous Peoples have been the caretakers of this land since time immemorial, nurturing its resources and preserving its natural beauty. We acknowledge this land is still home to many First Nations, Inuit, and Métis Peoples, who continue to maintain their deep connection to the land and its sacred teachings. We humbly acknowledge that we are all Treaty people, and we commit to fostering a relationship of respect, collaboration, and stewardship with Indigenous communities in our shared goal of reconciliation and environmental sustainability.",
-6,,Engagement Manager II - AWS,TEKsystems,Remote,"Charlotte, NC, USA",fulltime,IT Services and IT Consulting,Verified,engagement,mid-senior level,linkedin,2026-11-04,https://www.linkedin.com/jobs/view/4487529162,"Description
-  
-  
-Think of TEKsystems Global Services (TGS) as the growth solution for enterprises today. We unleash growth through technology, strategy, design, execution and operations with a customer-first mindset for bold business leaders. We deliver cloud, data and customer experience solutions. Our partnerships with leading cloud, design and business intelligence platforms fuel our expertise.
-  
-  
-We value deep relationships, dedication to serving others and inclusion. We drive positive outcomes for our people and our business, and we stay true to our commitments and act in harmony with our words. We exist to create significant opportunity for people to achieve fulfillment through career success.
-  
-  
-Ready to join us?
-  
-  
-Heres what the opportunity supported through our TGS Talent Acquisition Team requires:
-  
-  
-The Engagement Manager II (EM II) is a delivery leadership position within the TEKsystems Global Services (TGS) organization, responsible for managing one or more engagements or engagement teams at a time. The EM II is responsible for managing customer experience through regular check-ins and timely updates on engagement progress. The EM II ensures high quality service delivery and a high level of client satisfaction that aligns with client success criteria. The role quantifies the business benefits of engagement outcomes throughout the engagement lifecycle. This position requires strong project management skills, proficiency in relevant technical practices, and a proven track record of successful client engagements. The role is measured by customer satisfaction, customer retention/expansion, financial targets achieved, and billable utilization for all engagements in their portfolio. This role may require travel several times per year.
-  
-  
-Essential Job Duties And Responsibilities
-  
-  
-Application Delivery Experience: Demonstrated experience managing application delivery projects, including implementation, modernization, integration, migration, or application development initiatives.
-  
-  
-Government Client Experience: Prior experience delivering technology projects for government or public-sector clients, with an understanding of the governance, stakeholder management, communication, documentation, and delivery expectations associated with government engagements.
-  
-  
-Advanced Engagement Management: Oversee engagements varying delivery models, to ensure that objectives are achieved, delivered according to schedule, and within budget. Additionally, ensuring that internal compliance requirements are fulfilled. Provides strategic value to clients and engagements consistently.
-  
-  
-Strategic Client Relationship Management: Builds rapport and maintains relationships with client stakeholders to understand their long-term goals and align services accordingly.
-  
-  
-Stakeholder Communication: Regularly informing internal and external stakeholders about the progress, challenges, and results of engagement activities.
-  
-  
-Financial Management: Managing the financial aspects of engagements, including budgeting, forecasting, and ensuring profitability.
-  
-  
-Resource Allocation and Optimization: Ensuring efficient utilization of resources across engagements, optimizing team performance and engagement outcomes.
-  
-  
-Risk Management and Mitigation: Identifying potential risks early and implementing strategies to mitigate them, ensuring engagement stability.
-  
-  
-Performance Reporting: Preparing detailed performance reports and presenting them to senior management and clients.
-  
-  
-Artificial Intelligence (AI) Readiness & Innovation: Demonstrates intermediate AI fluency by responsibly leveraging AI-enabled capabilities to improve business outcomes, delivery excellence, innovation, and customer value.
-  
-  
-Team Leadership and Development: Leading larger engagement teams, mentoring resources, and fostering a collaborative team environment.
-  
-  
-Client Satisfaction and Retention: Focusing on client satisfaction and retention by delivering high-quality services and addressing any issues promptly.
-  
-  
-Business Development: Identifying opportunities and collaborating with sales partners for upselling and cross-selling, aiding in organic business growth.
-  
-  
-Behavioral Competencies And Responsibilities
-  
-  
-Manages Complexity: Makes sense of complex, high quantity, and sometimes contradictory information, to effectively solve problems.
-  
-  
-Action Oriented: Takes on new opportunities and tough challenges with a sense of urgency, high energy, and enthusiasm.
-  
-  
-Communicates Effectively: Develops and delivers multimode communications that convey a clear understanding of the unique needs of different audiences. Actively listens to understand customer needs and articulate solutions options clearly.
-  
-  
-Customer Focus: Builds strong customer relationships and delivers customer-centric solutions. Takes a consultative approach to propose solutions that benefit the customer and solves their business needs being a trusted partner and advisor.
-  
-  
-Drives Results: Creates a climate where people are motivated to do their best to help the organization achieve its objectives. Hosts regular meetings with the team and encourages input from others.
-  
-  
-Collaboration: Works well with cross-functional teams, fostering a collaborative environment to achieve common goals.
-  
-  
-Required Experience
-  
-  
-Bachelors Degree or equivalent experience.
-  
-  
-Minimum Of 5 Years Of Experience In Project Management.
-  
-  
-Experience managing projects with technical solutions using AWS, Azure, or GCP services.
-  
-  
-Excellent oral and written communication skills (English language).
-  
-  
-Analysis and problem-solving skills.
-  
-  
-Time management and organizational skills.
-  
-  
-People management skills.
-  
-  
-Experience in project management fundamentals or as an acting Scrum Master.
-  
-  
-Exposure to professional services agreements including the change management process.
-  
-  
-Exposure to IT Managed Services, project management classes, and other IT certifications.
-  
-  
-Demonstrated project risk analysis and mitigation skills.
-  
-  
-Preferred Experience
-  
-  
-Experience in the IT Professional Services industry.
-  
-  
-Certification from a cloud service provider (AWS Certified Cloud Practitioner)
-  
-  
-Knowledge of CRM systems and customer engagement strategies.
-  
-  
-Certification in project management (PMP, PRINCE2, etc.).
-  
-  
-Experience with Agile methodologies: Scrum, Kanban, SAFe, XP
-  
-  
-Job Type & Location
-  
-  
-This is a Permanent position based out of Charlotte, NC.
-  
-  
-Pay And Benefits
-  
-  
-The pay range for this position is $105000.00 - $150000.00/yr.
-  
-  
-Individual compensation offered for this position within this range will depend on many factors, including qualifications, skills, relevant experience, job knowledge, geographic location, internal equity, and other pertinent job-related factors.
-  
-  
-We reserve the right to pay above or below the posted wage based on factors unrelated to sex, race, or any other protected classification. Additional earnings may be available through incentive programs like annual bonuses, profit sharing, etc. Our full-time, internal employment benefits include the following: Medical, Dental, and Vision Critical Illness, Accident, and Hospital 401(k) Retirement Plan Pre-tax and Roth post-tax contributions available Life Insurance (Voluntary Life and AD&D for employee and dependents) Short and Long-Term Disability Health Spending Account (HSA) Transportation Benefits Employee Assistance Program Time Off/Leave (PTO, Vacation or Sick Leave)
-  
-  
-Job Type & Location
-  
-  
-This is a Permanent position based out of Charlotte, NC.
-  
-  
-Application Deadline
-  
-  
-This position is anticipated to close on Nov 18, 2026.
-  
-  
-Workplace Type
-  
-  
-This is a fully remote position.
-  
-  
-About TEKsystems
-  
-  
-We're partners in transformation. We help clients activate ideas and solutions to take advantage of a new world of opportunity. We are a team of 80,000 strong, working with over 6,000 clients, including 80% of the Fortune 500, across North America, Europe and Asia. As an industry leader in Full-Stack Technology Services, Talent Services, and real-world application, we work with progressive leaders to drive change. That's the power of true partnership. TEKsystems is an Allegis Group company.
-  
-  
-The company is an equal opportunity employer and will consider all applications without regards to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.
-  
-  
-About TEKsystems And TEKsystems Global Services
-  
-  
-Were a leading provider of business and technology services. We accelerate business transformation for our customers. Our expertise in strategy, design, execution and operations unlocks business value through a range of solutions. Were a team of 80,000 strong, working with over 6,000 customers, including 80% of the Fortune 500 across North America, Europe and Asia, who partner with us for our scale, full-stack capabilities and speed. Were strategic thinkers, hands-on collaborators, helping customers capitalize on change and master the momentum of technology. Were building tomorrow by delivering business outcomes and making positive impacts in our global communities. TEKsystems and TEKsystems Global Services are Allegis Group companies. Learn more at TEKsystems.com.
-  
-  
-The company is an equal opportunity employer and will consider all applications without regard to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.
-  
-  
-**San Francisco Fair Chance Ordinance:**
-Pursuant to the San Francisco Fair Chance Ordinance, for all positions located in the city and county of San Francisco, we will consider for employment qualified applicants with arrest and conviction records.
-  
-  
-**Massachusetts Lie Detector:**
-It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.
-  
-  
-**Use of Artificial Intelligence (AI):**
-We may use Artificial Intelligence (AI) to support parts of our hiring process, including sourcing, screening, and evaluating candidates. AI helps assess applications and qualifications, but final decisions are made by our hiring team. By applying, you acknowledge and agree that your application may be reviewed using AI tools.",
-5,,Service Assurance Team Leader,Business Managment Company (BMC),Onsite,"Riyadh, Saudi Arabia",,,Unverified,service assurance,leader,bayt,2026-11-11,https://www.bayt.com/en/saudi-arabia/jobs/service-assurance-team-leader-5508111/,,
 5,,"Manager, Network Engineering","Liberty Personnel Services, Inc.",Hybrid,"Burlington, NJ, USA | Denver, CO, USA",fulltime,"Software Development, IT Services and IT Consulting, and Computer Networking Products",Verified,operations,mid-senior level,linkedin,2026-11-11,https://www.linkedin.com/jobs/view/4462985440,"Job Details:
   
   
@@ -8955,7 +8707,6 @@ If you need assistance and/or a reasonable accommodation due to a disability dur
 **Salary Range:** $72,160 - $108,240; Depending on the candidate’s education, experience, skills, geographical location, and alignment with internal equity and external market, actual salary may vary and be higher or lower than the range posted.
   
 **AI Usage Disclosure:** As part of our commitment to transparency, we use artificial intelligence (AI) tools to assist in various stages of our recruitment process, including resume screening, candidate matching, interview scheduling, and communications. These tools are designed to improve efficiency, reduce bias, and enhance candidate experience. All decisions regarding hiring are made by qualified human professionals, and we continuously monitor our AI systems to ensure fairness and compliance with applicable regulations.",
-5,,Service Operations Excellence Manager,KONE,Onsite,"Dubai, United Arab Emirates | Dubai, Dubai, United Arab Emirates",,,Unverified,operations,manager,"bayt, linkedin",2026-11-07,https://www.bayt.com/en/uae/jobs/service-operations-excellence-manager-75397897/,,https://www.linkedin.com/jobs/view/4488170767
 5,,Service Manager - Cloud & Infrastructure,"Church Mutual Insurance Company, S.I.",Onsite,"Merrill, WI, USA",fulltime,Insurance,Verified,operations,mid-senior level,linkedin,2026-11-07,https://www.linkedin.com/jobs/view/4471635225,"**What You'll Be Doing**
 The IT Service Manager – Cloud & Infrastructure Operations leads the delivery of reliable, secure, and scalable cloud and infrastructure platforms at Church Mutual Group. This role is accountable for the day‑to‑day operations of shared technology platforms that support enterprise applications and business services The position provides technical leadership and direction for platform engineering capabilities across cloud and on‑premises environments, networking, and security domains. Operating as a principal‑level contributor, the role partners closely with architecture and engineering teams to define technical strategy, guide solution design, and ensure operational excellence. Key focus areas include team leadership, resource and capacity management, vendor coordination, and continuous service improvement to enhance performance, customer satisfaction, and cost efficiency.
   
@@ -9032,6 +8783,44 @@ Church Mutual is an equal opportunity employer. All qualified applicants will re
   
   
 Exact compensation will vary based on consideration of a variety of factors including education, skills, experience, and location.",
+5,,Service Operations Excellence Manager,KONE,Onsite,"Dubai, Dubai, United Arab Emirates",fulltime,Industrial Machinery Manufacturing,No match in text,operations,mid-senior level,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4488170767,"Certified as a Top Employer in the UAE, Qatar, KSA, and Oman, KONE is committed to creating a better workplace through excellent people practices. We prioritize fostering a strong work culture, setting high standards for quality and efficiency, and creating a workplace that nurtures collaboration, diversity, growth, and well-being.
+  
+  
+KONE Middle East, Turkey & Africa (KMTA) is embarking on an exciting growth journey and expanding its direct market presence. As part of this growth, we are looking for a
+**Service Operations Excellence Manager**
+to join our regional Service team, based in our office in Dubai.
+  
+  
+The Service Operations Excellence Manager leads and supports Service operations management on the front line to implement, ensure compliance with, and maintain the performance of end-to-end business processes and supporting systems. Further, he/she interacts with global/area service functions to improve daily front-line operations, enabling increased safety, customer satisfaction, quality, productivity, sustainability, and business performance.
+  
+  
+**Responsibilities and key activities:**
+
+* Drive field processes and continuous improvement practices with regions to ensure safety, customer satisfaction, quality, productivity, and sustainability
+* Actively contribute to the future development plans of the Service business at Front Line level, collaborating with Area and global teams to further improve global solutions and processes
+* Drive, in coordination with Area and Global process owners, the Front Line implementation, utilization and constant improvement of the KONE Way (KW) business processes and tools to become part of daily operations (e.g. MBM / DMP, FSM, MAP, Traction Control, operational reports, Supervisor Role and Mobility, 24/7 and VAS services, etc.)
+* Together with Service Operations Managers in regions, set follow-up targets according to the Field Operations Management Model, making sure that operational fundamentals are in place, monitoring deviations, analyzing opportunities, and setting improvement actions
+* Responsible for using and analyzing KPIs, converting analysis into concrete proposals for Front-Line and regional management to improve daily operations and realize productivity improvement targets in a hands-on manner.
+* Train and coach Supervisors and Service Operations Managers in the use of Service tools, processes, KPIs, and targets, contributing to the field competence development together with Learning & Development.
+* Accountable for route optimization, capacity planning, and maintenance profile optimization in the Front Line
+* Drive high-standard customer service capability by working closely with Sales, CS&A, and Technical Helpdesk teams.
+
+**Are You the One?**
+
+* University degree (M.Sc.) in Business, Engineering, or an equivalent field.
+* Fluent in English, with strong communication and interpersonal skills.
+* Previous experience in Service Operations or a comparable business environment.
+* Experience in Project Management, including driving and realizing business benefits.
+* Experience in Field Operations management and/or development, preferably within a service or maintenance industry.
+* Proven ability to lead and execute development initiatives across multiple geographies, countries, business units, or entities.
+* Strong strategic thinking skills and the ability to understand and manage strategic concepts.
+* Ability to lead and develop a small team of two people.
+* Proactive, energetic, and results-oriented approach.
+
+*At KONE, we are focused on creating an innovative and collaborative working culture where we value the contribution of each individual. Employee engagement is a key focus area for us and we encourage participation and the sharing of information and ideas. Sustainability is an integral part of our culture and the daily practice. We follow ethical business practices and we seek to develop a culture of working together where co-workers trust and respect each other and good performance is recognized. In being a great place to work, we are proud to offer a range of experiences and opportunities that will help you to achieve your career and personal goals and enable you to live a healthy and balanced life.*
+*At KONE, we believe in fair and competitive pay that recognizes performance and supports employee engagement. Our approach covers a comprehensive total rewards package, including both financial and non-financial benefits. We are committed to fostering a culture of fairness, respect, equity, diversity, and inclusion.*
+Read more on
+*https://kone.com/global/en/careers.html*",
 5,,Infrastructure Section Manager - Fintech - Emirati,Talents Tide,Onsite,"Ajman, Ajman Emirate, United Arab Emirates",fulltime,Human Resources Services,Verified,incident,mid-senior level,linkedin,2026-11-06,https://www.linkedin.com/jobs/view/4487301213,"**We're Hiring: Infrastructure Section Manager | Government Sector | Ajman, UAE**
 
 Talent Tide is recruiting on behalf of a government department in Ajman for an
@@ -10270,8 +10059,7 @@ Why Join?
   
 
 You'll play a critical role in protecting the stability of a sophisticated trading environment, working alongside engineering, trading, and operations teams to ensure business continuity and operational resilience at one of the most technically advanced firms in the industry.",
-4,,Incident Manager,Centraprise,Onsite,"Alpharetta, GA, USA",,,Unverified,incident,manager,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4486920017,,
-4,,CTIO - Platform Support Operations Manager - Manager,PwC,Onsite,"Houston, TX, USA | San Antonio, TX, USA",fulltime,"Accounting, Financial Services, and Business Consulting and Services",Verified,operations,mid-senior level,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4487585438,"The Opportunity
+4,,CTIO - Platform Support Operations Manager - Manager,PwC,Onsite,"Houston, TX, USA",fulltime,"Accounting, Financial Services, and Business Consulting and Services",Verified,operations,mid-senior level,linkedin,2026-11-05,https://www.linkedin.com/jobs/view/4487585438,"The Opportunity
   
   
 As a Platform Support Operations Manager you will oversee infrastructure support operations within our DevSecOps practice, guiding the delivery of secure software and application services across client-facing environments. As a Manager you will lead teams, coach team members, manage client accounts, and drive assigned workstreams by reviewing complex issues, planning work, and guiding delivery across multiple priorities. In this role at PwC, you will use your knowledge of infrastructure, systems, and security integration to coordinate support activities, improve operational flow, and help deliver consistent outcomes for client needs.
@@ -10324,4 +10112,4 @@ Learn more about how we work: https://pwc.to/how-we-work
 For only those qualified applicants that are impacted by the Los Angeles County Fair Chance Ordinance for Employers, the Los Angeles' Fair Chance Initiative for Hiring Ordinance, the San Francisco Fair Chance Ordinance, San Diego County Fair Chance Ordinance, and the California Fair Chance Act, where applicable, arrest or conviction records will be considered for Employment in accordance with these laws. At PwC, we recognize that conviction records may have a direct, adverse, and negative relationship to responsibilities such as accessing sensitive company or customer information, handling proprietary assets, or collaborating closely with team members. We evaluate these factors thoughtfully to establish a secure and trusted workplace for all.
   
   
-Applications will be accepted until the position is filled or the posting is removed, unless otherwise set forth on the following webpage. Please visit this link for information about anticipated application deadlines: https://pwc.to/us-application-deadlines",https://www.linkedin.com/jobs/view/4487572902
+Applications will be accepted until the position is filled or the posting is removed, unless otherwise set forth on the following webpage. Please visit this link for information about anticipated application deadlines: https://pwc.to/us-application-deadlines",
