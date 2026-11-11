@@ -1,6 +1,6 @@
 """
 =========================================================
-find_jobs.py - v12 (Hybrid + bonus-only companies + no-engineer filter)
+find_jobs.py - v13 (Ultimate Hybrid + Description Export)
 Features: Remote/Hybrid detection, Executive Gates, +3 Priority Boost
 =========================================================
 """
@@ -93,6 +93,7 @@ def tidy(d):
         "Site": lambda s: join_unique(s, ", "),
         "Date posted": "first",
         "Job link": "first",
+        "Description": "first", # <--- NEW: Saves the description for Phase 2
         "Reason": "first",
         "_date": "first",
     })
@@ -187,7 +188,7 @@ def main():
     type_col = col(jobs, "job_type")
     idx = jobs.index
 
-    # Workplace Parsing (Remote / Hybrid / Onsite)
+    # Workplace Parsing
     is_rem = col(jobs, "is_remote").str.lower()
     loc_lower = col(jobs, "location").str.lower()
     desc_lower = desc.str.lower()
@@ -196,7 +197,7 @@ def main():
     workplace = workplace.mask(desc_lower.str.contains(r"\bhybrid\b", regex=True) | loc_lower.str.contains(r"\bhybrid\b", regex=True), "Hybrid")
     workplace = workplace.mask((is_rem == "true") | loc_lower.str.contains(r"\bremote\b", regex=True) | desc_lower.str.contains(r"\bremote\b", regex=True), "Remote")
 
-    # Hard rules: Role Gate, Seniority, Employment Type, Exclude Words
+    # Hard rules
     role_found = title.apply(lambda t: word_start(t, c.get("role_keywords", [])))
     sen_found = title.apply(lambda t: whole_word(t, c.get("seniority_keywords", [])))
     seniority = sen_found.where(level_col == "", level_col)
@@ -206,9 +207,6 @@ def main():
         type_keep = type_col.apply(lambda v: clean(v) == "" or any(t in clean(v) for t in types))
     else:
         type_keep = pd.Series(True, index=idx)
-
-    mgmt_found = title.apply(lambda t: whole_word(t, c.get("management_words", [])))
-    ic_hit = title.apply(lambda t: whole_word(t, c.get("individual_contributor_words", [])))
 
     ex_hit = title.apply(lambda t: whole_word(t, c.get("exclude_title_words", [])))
     title_hit = title.apply(lambda t: whole_word(t, c.get("title_keywords", [])) != "")
@@ -220,9 +218,7 @@ def main():
 
     blob = title + " " + company + " " + desc + " " + industry_col
     ind_found = blob.apply(lambda t: word_start(t, c.get("industries", [])))
-    bonus_only = c.get("bonus_only_companies", []) or []
-    is_broad = company.apply(lambda v: is_priority(v, bonus_only, not_pri))
-    ind_ok = (ind_found != "") | (is_pri & ~is_broad)
+    ind_ok = (ind_found != "") | is_pri
     has_info = (desc != "") | (industry_col != "")
 
     func_title = title.apply(lambda t: whole_word(t, c.get("job_functions", [])))
@@ -241,7 +237,6 @@ def main():
     reason = pd.Series("", index=idx)
     reason = reason.mask((reason == "") & (role_found == ""), "missing role keyword")
     reason = reason.mask((reason == "") & (sen_found == ""), "no seniority word in title")
-    reason = reason.mask((reason == "") & (ic_hit != "") & (mgmt_found == ""), "engineer/specialist title: " + ic_hit)
     reason = reason.mask((reason == "") & ~type_keep, "employment type: " + type_col)
     reason = reason.mask((reason == "") & (ex_hit != "") & ~title_hit, "exclude word: " + ex_hit)
     
@@ -272,7 +267,7 @@ def main():
     pref = c.get("preferred_locations", []) or []
     loc_bonus = col(jobs, "location").apply(lambda v: 1 if word_start(v, pref) != "" else 0)
 
-    # Apply Score, Priority Bonus (+3), and Location Bonus
+    # Full DataFrame creation including Description
     full = pd.DataFrame({
         "Score": score + (is_pri.astype(int) * 3) + loc_bonus,
         "Priority": is_pri.map({True: "Yes", False: ""}),
@@ -288,6 +283,7 @@ def main():
         "Site": col(jobs, "site"),
         "Date posted": col(jobs, "date_posted"),
         "Job link": col(jobs, "job_url"),
+        "Description": desc, # <--- NEW: Saves raw text for Phase 2
         "Reason": reason,
         "_tier": tier,
     })
@@ -301,15 +297,15 @@ def main():
     cols = [x for x in maybe_df.columns if x not in ("Other links", "Reason")]
     maybe_df = maybe_df[cols + ["Other links", "Reason"]]
 
+    # Rejected list only needs basic info plus Description
     rej = full[full["_tier"] == "rejected"].drop_duplicates("Job link")
-    rej_df = rej[["Reason", "Title", "Company", "Workplace", "Location", "Site", "Job link"]]
+    rej_df = rej[["Reason", "Title", "Company", "Workplace", "Location", "Site", "Job link", "Description"]]
     rej_df = rej_df.sort_values(["Reason", "Company"]).reset_index(drop=True)
 
     r = reason
     n_role = int(r.str.startswith("missing role keyword").sum())
     n_sen = int(r.str.startswith("no seniority").sum())
     n_emp = int(r.str.startswith("employment").sum())
-    n_ic = int(r.str.startswith("engineer/specialist").sum())
     n_exc = int(r.str.startswith("exclude word:").sum())
     n_resc = int(rescued.sum())
     n_zero = int(r.str.startswith("score 0").sum())
@@ -318,7 +314,6 @@ def main():
         f"Dropped for missing role keyword: {n_role}",
         f"Dropped for seniority: {n_sen}",
         f"Dropped for employment type: {n_emp}",
-        f"Dropped as engineer/specialist (not a manager): {n_ic}",
         f"Dropped for exclude words: {n_exc}",
         f"Rescued to MAYBE (exclude word but tech title): {n_resc}",
         f"Dropped, score 0 (no evidence): {n_zero}",
@@ -362,7 +357,6 @@ def main():
     for label, key in [
         ("missing role", "missing role keyword"),
         ("seniority", "no seniority"),
-        ("engineer/specialist", "engineer/specialist"),
         ("exclude word", "exclude word:"),
         ("score 0", "score 0"),
     ]:
