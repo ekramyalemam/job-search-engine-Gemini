@@ -1,63 +1,61 @@
-RUN SUMMARY 2026-11-25
+RUN SUMMARY 2026-11-26
 
 SITES
-linkedin: 620 jobs from 33/40 searches (used)
-indeed: 448 jobs from 36/40 searches (used)
-bayt: 175 jobs from 31/40 searches (used)
+linkedin: 800 jobs from 40/40 searches (used)
+indeed: 444 jobs from 37/40 searches (used)
+bayt: 182 jobs from 29/40 searches (used)
 google: 0 jobs from 0/4 searches (skipped)
 glassdoor: 0 jobs from 0/4 searches (skipped)
 zip_recruiter: 0 jobs from 0/4 searches (skipped)
 
 FILTERS
-Total after removing duplicates: 901
-Dropped for missing role keyword: 113
-Dropped for seniority: 43
-Dropped for employment type: 19
-Dropped for exclude words: 87
-Rescued to MAYBE (exclude word but tech title): 10
-Dropped, score 0 (no evidence): 182
-Moved to MAYBE list (score 1-3): 302
-Strong matches before merging repeats: 155
-Merged repeated jobs: 17
-Final strong matches: 138
-Final maybe list: 291
+Total after removing duplicates: 968
+Dropped for missing role keyword: 135
+Dropped for seniority: 41
+Dropped for employment type: 36
+Dropped for exclude words: 91
+Rescued to MAYBE (exclude word but tech title): 6
+Dropped, score 0 (no evidence): 178
+Moved to MAYBE list (score 1-3): 342
+Strong matches before merging repeats: 145
+Merged repeated jobs: 14
+Final strong matches: 131
+Final maybe list: 326
   Priority companies: 14
-  Industry verified: 102
-  Score 5 or more: 118
+  Industry verified: 112
+  Score 5 or more: 122
 
-REGIONS (strong matches): USA 76, Canada 31, KSA 12, UAE 10, Qatar 8, Other 1
-SCORES: 10:5, 9:9, 7:7, 6:60, 5:37, 4:20
+REGIONS (strong matches): USA 74, Canada 29, UAE 11, Qatar 8, KSA 8, Other 1
+SCORES: 10:6, 9:7, 8:1, 7:9, 6:58, 5:41, 4:9
 
 TOP 15 (score | title | workplace | company | location)
+10 | Incident Manager | Hybrid | Bell | Toronto, Ontario, C…
+10 | Gestionnaire d'incidents | Onsite | Bell | Toronto, Ontario, C…
 10 | Head of Service Delivery Qatar Palestin… | Onsite | Ericsson | Doha, Doha, Qatar |…
-10 | Head of Service Delivery STC-IT Mobily-… | Onsite | Ericsson | الرياض, S01, Saudi …
+10 | Head of Service Delivery STC-IT Mobily-… | Onsite | Ericsson | Riyadh, Riyadh, Sau…
 10 | Head of Service Delivery KSA | Onsite | Ericsson | Riyadh, Riyadh, Sau…
 10 | Director Customer Operations | Onsite | Ericsson | Toronto, Ontario, C…
-10 | Critical Environment Operations Manager… | Onsite | Microsoft | Toronto, Ontario, C…
+9 | Technical Infrastructure Program Manage… | Onsite | Amazon Web Services… | Seattle, WA, USA | …
 9 | Senior Technical Program Manager, Globa… | Onsite | Google | New York, NY, USA
 9 | Technical Program Manager II, Data Cent… | Onsite | Google | Atlanta, GA, USA
 9 | Delivery Practice Manager, AWS Industri… | Onsite | Amazon Web Services… | Houston, TX, USA
 9 | Fiber and Capacity Delivery Lead, Globa… | Onsite | Google | Thornton, CO, USA
 9 | Senior Cloud Solution Architect Manager | Onsite | Microsoft | Toronto, Ontario, C…
 9 | Data Center Server Operations Manager, … | Onsite | Google | Henderson, NV, USA
-9 | Infrastructure Technical Program Manage… | Onsite | Amazon Web Services… | Austin, TX, USA
-9 | Head of Service Reliability | Onsite | Ericsson | Riyadh, Riyadh, Sau…
-9 | Principal Engineer - Wireless Project M… | Remote | Verizon | Rochester, NY, USA
-7 | Senior Program Manager - AI Infrastruct… | Onsite | Dell Technologies | Dubai, Dubai, Unite…
+8 | Cloud Solution Architect Manager - CTJ … | Onsite | Microsoft | Washington, DC, USA
+7 | Lead - AI Infrastructure Operations | Onsite | malomatia | Doha, Qatar
 
 LOWEST 8 STRONG MATCHES
+4 | Incident Manager | Onsite | Wipro | No match in text
+4 | Customer Operations Manager | Onsite | Spectrum Brands, Inc | No match in text
+4 | ITSM Incident Manager | Onsite | Cognizant | No match in text
+4 | Major Incident Manager - 101789 | Hybrid | Swoon | No match in text
 4 | Sr. Incident Response Manager-Service M… | Hybrid | Target | No match in text
 4 | Head of Service Delivery | Remote | Influx | No match in text
 4 | Incident Operations Manager | Onsite | Chime | No match in text
-4 | Major Incident IT Manager, Temporary | Onsite | UT Southwestern Med… | No match in text
-4 | Incident Manager | Onsite | Innova Software Ser… | No match in text
-4 | Director, Enterprise Service Delivery (… | Remote | CoreCivic | No match in text
-4 | Incident Manager | Onsite | Centraprise | Unverified
 4 | Application Development and Operations … | Onsite | Texas Health and Hu… | Verified
 
 TOP 10 MAYBE (score | title | workplace | company | why)
-10 | Infrastructure & Operations Budgeting A… | Onsite | stc | exclude word 'assistant' but title has a tech word
-10 | Senior Manager, Program Controls, Data … | Hybrid | Bell | exclude word 'construction' but title has a tech word
 9 | Program Manager, Data Center Constructi… | Onsite | Google | exclude word 'construction' but title has a tech word
 7 | Principal Technical Program Manager | Onsite | Microsoft | score 3 below 4
 7 | Sr Technical Project Manager (Unit 42 C… | Remote | Palo Alto Networks | score 3 below 4
@@ -66,33 +64,35 @@ TOP 10 MAYBE (score | title | workplace | company | why)
 7 | Head of Digital and Agency | Hybrid | Bell | score 3 below 4
 7 | Senior Customer Success Manager (Transf… | Onsite | Amazon Web Services | score 3 below 4
 7 | Customer Success Manager | Onsite | Salesforce | score 3 below 4
+7 | Solution Delivery Manager | Onsite | Rogers Communicatio… | score 3 below 4
+7 | Bilingual Senior Project Manager | Onsite | TELUS | score 3 below 4
 
 DROPPED SAMPLES (to check nothing good is lost)
-- missing role: 113 total; examples:
-    Customer Analytics | Remote | Unilever | missing role keyword
-    Medical Lab Technician | Onsite | HCA Florida South S… | missing role keyword
-    Customer Service Coordinator | Onsite | MAJID AL FUTTAIM | missing role keyword
-    ELV & Starlink Installation Technician | Remote | Starway Link Networ… | missing role keyword
-    Customer Success & User Activation Inte… | Remote | Paquik FZCO | missing role keyword
-    OTI Supervisor | Onsite | Visual Edge IT | missing role keyword
-- seniority: 43 total; examples:
+- missing role: 135 total; examples:
+    Senior Software Engineer (Saudi Nationa… | Hybrid | Delivery Hero | missing role keyword
+    Telecommunications Specialist | Onsite | Computer World Serv… | missing role keyword
+    Principal Surface and Ground Water Hydr… | Onsite | Stantec | missing role keyword
+    Hotel Bus Driver | Onsite | Accor | missing role keyword
+    Front End Department Supervisor | Onsite | Lowe's Home Improve… | missing role keyword
+    Commercial Management Office (CMO) & Lo… | Onsite | Umdasch Group - Pro… | missing role keyword
+- seniority: 41 total; examples:
     Incident Management Engineer - Bilingua… | Onsite | Amazon Web Services… | no seniority word i…
-    Network & Systems Engineer , OTS | Remote | Amazon | no seniority word i…
-    Global Security Operations Centre Super… | Onsite | International SOS | no seniority word i…
-    Delivery Partner | Onsite | TechDoQuest | no seniority word i…
-    Network Engineer | Onsite | Enum Technology & S… | no seniority word i…
-    Technical Service Delivery Specialist | Onsite | Mercury | no seniority word i…
-- exclude word: 87 total; examples:
-    Senior Director, Pharmacy | Remote | Centene Pharmacy Se… | exclude word: pharm…
-    Property Manager (Mississauga) | Remote | Icon Property Manag… | exclude word: prope…
-    Food Operations Manager | Remote | Foodsmart | exclude word: food
-    Senior Procurement Manager | Onsite | Bothwell Accurate | exclude word: procu…
+    Incident Management Engineer - Bilingua… | Onsite | Amazon Web Services… | no seniority word i…
+    Project Engineer - Controls Systems | Onsite | Johnson Controls | no seniority word i…
+    Network Security Architect | Remote | Texas Instruments | no seniority word i…
+    Project Analyst, Real Estate Capital De… | Onsite | Hydro One | no seniority word i…
+    Account Cloud Engineer | Onsite | Oracle | no seniority word i…
+- exclude word: 91 total; examples:
+    Regional Security Manager - Retail Divi… | Onsite | Allied Universal | exclude word: retail
+    Senior Manager Supply Chain, MENA | Onsite | iHerb International… | exclude word: suppl…
     Sr Strategy & Programs Manager, Interne… | Remote | T-Mobile | exclude word: marke…
-    Head Coach (Store Manager) | Onsite | Rally House | exclude word: store
-- score 0: 182 total; examples:
-    Associate Director - Managed Care - Hea… | Remote | Guidehouse | score 0: no role or…
-    Customer Support Lead | Remote | Moove | score 0: no role or…
-    Vice President, Service - Enterprise | Onsite | Paychex | score 0: no role or…
-    Manager SMS | Onsite | Qatar Airways | score 0: no role or…
-    Group Exercise Manager - Female | Onsite | Fit n Glam | score 0: no role or…
-    Director of Information Technology | Onsite | Walker Industries | score 0: no role or…
+    Marketing and Customer Experience Manag… | Onsite | Al Futtaim Group | exclude word: retail
+    Senior Sales Manager - Group ($84,900 -… | Onsite | Hyatt | exclude word: sales
+    IT Senior Manager - Supply Chain | Onsite | Saputo | exclude word: suppl…
+- score 0: 178 total; examples:
+    Manager - Business Planning & Support | Onsite | Visa | score 0: no role or…
+    Head of Corporate Servicing | Onsite | Quintessentially | score 0: no role or…
+    Customer Support Manager | Remote | COMC | score 0: no role or…
+    Hamilton, Ontario, Canada HEAD OF TRAIN… | Remote | LiftWerx | score 0: no role or…
+    Manager - Facilities | Remote | IndyGo | score 0: no role or…
+    Destination Director – Communities & Fa… | Onsite | Shamal Holding | score 0: no role or…
